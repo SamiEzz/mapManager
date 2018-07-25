@@ -1,4 +1,10 @@
-
+/**
+ * @brief 
+ * 
+ * @file main.c
+ * @author your name
+ * @date 2018-07-25
+ */
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>

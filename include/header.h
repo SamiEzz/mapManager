@@ -69,6 +69,11 @@ typedef enum Node_type {
 	STATION,	///< rest point
 	AUTO		///< generated point
 } Node_type;
+
+typedef struct legtoarc{
+    float x,y;
+    int arcsId[MAX_NODE_ARCS]
+} legtoarc;
 typedef struct Node Node, *Node_p;
 
 typedef struct Arc {

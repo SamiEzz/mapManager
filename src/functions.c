@@ -47,7 +47,66 @@ int isnewnode(Node* N, float x,float y,int imax){
  * @return  
  * 
  */ 
-Node * getnodes(Legs legs[],int nb_n){
+
+/**
+ * @brief 
+ * 
+ * @return legtoarc 
+ */
+Node * convertLegs(Legs legs[]){
+	int nleg=sizeof(legs)/sizeof(legs[0]);
+	Node * n = malloc(2*nleg*sizeof(Node));
+	int id=0,madeNodes=0;
+
+	/**
+	 * @brief loop to calculate number of arcs for each  node
+	 * 
+	 */
+	for(int i=0;i<nleg;i++){
+		for(int j =0;j<madeNodes;j++){
+			bool notReconized = legs[i].startx!=n[j].x || legs[i].starty != n[j].y;
+			bool reconizedStart = legs[i].startx==n[j].x && legs[i].starty == n[j].y;
+			bool reconizedEnd = legs[i].endx==n[j].x && legs[i].endy == n[j].y;
+			
+			if(notReconized){
+				/* node not reconized, create a new one
+				 * 
+				 */
+				n[madeNodes].x=legs[i].startx;
+				n[madeNodes].y=legs[i].starty;
+				n[madeNodes].nb_a=0;
+				madeNodes++;
+			}
+			else if(reconizedStart){
+				/* node reconized, create an arc
+				 * 
+				 */
+				n[madeNodes].x=legs[i].startx;
+				n[madeNodes].y=legs[i].starty;
+				n[madeNodes].nb_a=0;
+			}
+			
+
+		}
+	}
+	return n;
+}
+
+
+
+/*
+ * @brief read the contenant of a table of legs structure, and create nodes
+ *  every node contain a table of arcs, and an arc contain a table of pointers to linked nodes.
+ * + at first, fill node[knode].nb_a by looking for legs with same (start/end) position
+ * + create a temporary table with {* "knode" as id and * arcs from this knode node}
+ * |knode|arcs|
+ * | --- | --- |
+ * | 0 | * arc |
+ * 
+ * @param IN
+ * @return  
+ * 
+  Node * getnodes(Legs legs[],int nb_n){
 	int src,dest;
 	int nb_Legs = sizeof(legs)/sizeof(legs[0]); 
 	Node * n = malloc(nb_n*sizeof(Node)); 
@@ -93,13 +152,15 @@ Node * getnodes(Legs legs[],int nb_n){
 	
 	return n;
 }
-/*
+*/
+/**
  * @brief 
  * 
- * @param IN
- * @return  
- * 
- */ 
+ * @param legs 
+ * @param cst 
+ * @param nb_n 
+ * @return Cartography 
+ */
 Cartography carto(Legs legs[], Constants cst,int nb_n){
 	Cartography c;
 	// CONSTANTS
