@@ -1,0 +1,5 @@
++ .. Cartography * carto(Waypoints wpt[], Constants cst)
+++ // nodes
+++ .. Node getnodes(Legs legs[])
++++ OK Bool8 isneighbour(Node n1, Node n2)
++++ 

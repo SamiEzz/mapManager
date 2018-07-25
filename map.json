@@ -1,0 +1,2934 @@
+{
+    "Constants": {
+        "VDEF": 0.5,
+        "ADEF": 0.5,
+        "V1": 0.25,
+        "V2": 0.15
+    },
+    "Beacons": [
+        {
+            "Beaconid": "0",
+            "Beaconx": 362.38684473755353,
+            "Beacony": 277.2415358832586,
+            "Beaconz": 0.0
+        },
+        {
+            "Beaconid": "1",
+            "Beaconx": 732.2024286807892,
+            "Beacony": 257.46319164352894,
+            "Beaconz": 0.0
+        },
+        {
+            "Beaconid": "2",
+            "Beaconx": 230.56106498800528,
+            "Beacony": -219.08187573156255,
+            "Beaconz": 0.0
+        },
+        {
+            "Beaconid": "3",
+            "Beaconx": 991.0151718067209,
+            "Beacony": -250.07563846967315,
+            "Beaconz": 0.0
+        }
+    ],
+    "Constraints": [
+        {
+            "Cid": 0,
+            "Cvalue": 0.5,
+            "Cname": "VDEF",
+            "Ctype": "Up constraint",
+            "Cx": 302.63009007884375,
+            "Cy": 19.956620245556707,
+            "Cz": 0.0
+        },
+        {
+            "Cid": 1,
+            "Cvalue": 0.5,
+            "Cname": "VDEF",
+            "Ctype": "dwn constraint",
+            "Cx": 274.2449489594632,
+            "Cy": 81.02613226301989,
+            "Cz": 0.0
+        }
+    ],
+    "Waypoints": [
+        {
+            "wpid": 0,
+            "wptype": "node standard",
+            "wpx": 763.9262611416698,
+            "wpy": -40.8119707349818,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 1,
+            "wptype": "node wait",
+            "wpx": 812.6024539774457,
+            "wpy": 202.29437189537475,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 2,
+            "wptype": "node wait",
+            "wpx": 2362.6983367432344,
+            "wpy": -34.45858608094568,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 3,
+            "wptype": "node wait",
+            "wpx": 2617.0349725266956,
+            "wpy": 161.71539652559431,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 4,
+            "wptype": "node wait",
+            "wpx": 2617.034972935518,
+            "wpy": 81.67044040296446,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 5,
+            "wptype": "node wait",
+            "wpx": 2617.034972039622,
+            "wpy": 241.80434202750803,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 6,
+            "wptype": "node wait",
+            "wpx": 1579.168628647637,
+            "wpy": -34.448518680366874,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 7,
+            "wptype": "node standard",
+            "wpx": 279.58191306001225,
+            "wpy": 59.805017060264646,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 8,
+            "wptype": "node standard",
+            "wpx": 303.0993914826424,
+            "wpy": 118.23071008428609,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 9,
+            "wptype": "node standard",
+            "wpx": 468.23033159498425,
+            "wpy": 165.98533257944754,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 10,
+            "wptype": "node standard",
+            "wpx": 485.60048056795625,
+            "wpy": 162.91158259401755,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 11,
+            "wptype": "node standard",
+            "wpx": 510.51534648937127,
+            "wpy": 144.6748775336399,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 12,
+            "wptype": "node standard",
+            "wpx": 516.7487377660995,
+            "wpy": 180.02985712202417,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 13,
+            "wptype": "node standard",
+            "wpx": 577.8670195151421,
+            "wpy": 197.70862916309696,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 14,
+            "wptype": "node standard",
+            "wpx": 621.0735647054213,
+            "wpy": 198.05970413433948,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 15,
+            "wptype": "node standard",
+            "wpx": 801.8156928590456,
+            "wpy": 181.55689949074855,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 16,
+            "wptype": "node standard",
+            "wpx": 756.3354370710936,
+            "wpy": 161.29875142291803,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 17,
+            "wptype": "node standard",
+            "wpx": 738.9930060645322,
+            "wpy": 166.01797890168484,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 18,
+            "wptype": "node standard",
+            "wpx": 764.0068810769627,
+            "wpy": 108.94368391603626,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 19,
+            "wptype": "node standard",
+            "wpx": 739.8039615262949,
+            "wpy": 62.45057742447733,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 20,
+            "wptype": "node standard",
+            "wpx": 723.3713355994688,
+            "wpy": 30.930514300455798,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 21,
+            "wptype": "node standard",
+            "wpx": 651.1447854285868,
+            "wpy": 41.73964845130553,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 22,
+            "wptype": "node standard",
+            "wpx": 679.8006740074195,
+            "wpy": 20.752336756407544,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 23,
+            "wptype": "node standard",
+            "wpx": 735.225998020268,
+            "wpy": -19.816827748965864,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 24,
+            "wptype": "node standard",
+            "wpx": 691.6775237409565,
+            "wpy": -29.998920930958718,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 25,
+            "wptype": "node standard",
+            "wpx": 675.2448977955202,
+            "wpy": -61.51898418695458,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 26,
+            "wptype": "node standard",
+            "wpx": 649.0237156641248,
+            "wpy": -111.93565054645262,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 27,
+            "wptype": "node standard",
+            "wpx": 625.7865715256772,
+            "wpy": -156.57353384255575,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 28,
+            "wptype": "node standard",
+            "wpx": 702.244300956421,
+            "wpy": -199.64069257671275,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 29,
+            "wptype": "node standard",
+            "wpx": 554.8257922356936,
+            "wpy": -199.6334779129744,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 30,
+            "wptype": "node standard",
+            "wpx": 475.58221340178267,
+            "wpy": -199.6256861978838,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 31,
+            "wptype": "node standard",
+            "wpx": 406.41999770527536,
+            "wpy": -159.79043420753774,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 32,
+            "wptype": "node standard",
+            "wpx": 858.5347672749925,
+            "wpy": -199.64442430948924,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 33,
+            "wptype": "node standard",
+            "wpx": 882.1604946370833,
+            "wpy": -127.36711039236224,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 34,
+            "wptype": "node standard",
+            "wpx": 959.8138483399435,
+            "wpy": -184.20632110576662,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 35,
+            "wptype": "node standard",
+            "wpx": 1007.0653037978363,
+            "wpy": -199.65169317811717,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 36,
+            "wptype": "node standard",
+            "wpx": 1835.5591890010355,
+            "wpy": -199.69614844123976,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 37,
+            "wptype": "node standard",
+            "wpx": 1915.5774633494066,
+            "wpy": -119.70006402386662,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 38,
+            "wptype": "node standard",
+            "wpx": 1995.581376354055,
+            "wpy": -199.7000643065138,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 39,
+            "wptype": "node standard",
+            "wpx": 1915.583094012521,
+            "wpy": -54.4537275637191,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 40,
+            "wptype": "node standard",
+            "wpx": 1895.5609066497755,
+            "wpy": -34.44981195936839,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 41,
+            "wptype": "node standard",
+            "wpx": 2422.436610652535,
+            "wpy": -199.6961450912239,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 42,
+            "wptype": "node standard",
+            "wpx": 2502.4588002449186,
+            "wpy": -119.6955984667693,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 43,
+            "wptype": "node standard",
+            "wpx": 2502.459383112552,
+            "wpy": -74.45986923222699,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 44,
+            "wptype": "node standard",
+            "wpx": 2462.437195469689,
+            "wpy": -34.45595357518232,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 45,
+            "wptype": "node standard",
+            "wpx": 2582.4366134744223,
+            "wpy": -199.69614506472521,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 46,
+            "wptype": "node standard",
+            "wpx": 2657.2384547688353,
+            "wpy": -115.94472257407938,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 47,
+            "wptype": "node standard",
+            "wpx": 2626.263852082299,
+            "wpy": -187.66016513338354,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 48,
+            "wptype": "node standard",
+            "wpx": 2607.988248883132,
+            "wpy": -199.73404212830474,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 49,
+            "wptype": "node standard",
+            "wpx": 2712.3425467164543,
+            "wpy": -199.73905267309192,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 50,
+            "wptype": "node standard",
+            "wpx": 2722.201202409352,
+            "wpy": -199.73561961003975,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 51,
+            "wptype": "node standard",
+            "wpx": 2684.388118450312,
+            "wpy": -53.08515416321734,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 52,
+            "wptype": "node standard",
+            "wpx": 2690.9233920714555,
+            "wpy": -21.360685487936735,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 53,
+            "wptype": "node standard",
+            "wpx": 2690.930090084076,
+            "wpy": 41.67044086817532,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 54,
+            "wptype": "node standard",
+            "wpx": 2650.907902573187,
+            "wpy": 81.67435650660991,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 55,
+            "wptype": "node standard",
+            "wpx": 2690.943412881818,
+            "wpy": 121.05419133763712,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 56,
+            "wptype": "node standard",
+            "wpx": 2690.940721476437,
+            "wpy": 141.71162720289612,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 57,
+            "wptype": "node standard",
+            "wpx": 2670.9407214230478,
+            "wpy": 161.71162695442126,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 58,
+            "wptype": "node standard",
+            "wpx": 2690.9449722745712,
+            "wpy": 181.7116269381388,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 59,
+            "wptype": "node standard",
+            "wpx": 2690.946097936398,
+            "wpy": 201.80434260530205,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 60,
+            "wptype": "node standard",
+            "wpx": 2690.9460978229554,
+            "wpy": 206.3043427594464,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 61,
+            "wptype": "node standard",
+            "wpx": 2730.9455777100093,
+            "wpy": 246.3043425946239,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 62,
+            "wptype": "node standard",
+            "wpx": 2770.9317098253573,
+            "wpy": 246.30434276955066,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 63,
+            "wptype": "node standard",
+            "wpx": 2792.8228230375726,
+            "wpy": 198.0288116044644,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 64,
+            "wptype": "node standard",
+            "wpx": 2782.3488381461593,
+            "wpy": 173.7730725061681,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 65,
+            "wptype": "node standard",
+            "wpx": 2763.987568090557,
+            "wpy": 161.70173917590205,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 66,
+            "wptype": "node standard",
+            "wpx": 2866.287548969037,
+            "wpy": 246.30434320027416,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 67,
+            "wptype": "node standard",
+            "wpx": 2886.012119155459,
+            "wpy": 246.3082597353357,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 68,
+            "wptype": "node standard",
+            "wpx": 2650.946097629967,
+            "wpy": 241.8043420288268,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 69,
+            "wptype": "node standard",
+            "wpx": 2690.9368516259533,
+            "wpy": 281.80434132399046,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 70,
+            "wptype": "node standard",
+            "wpx": 2690.909522011419,
+            "wpy": 326.3082580463911,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 71,
+            "wptype": "node standard",
+            "wpx": 2965.8481446448386,
+            "wpy": 171.7588203560656,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 72,
+            "wptype": "node standard",
+            "wpx": 2966.5936624296437,
+            "wpy": 160.84986780504005,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 73,
+            "wptype": "node standard",
+            "wpx": 3046.3853125141504,
+            "wpy": 246.3082598569838,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 74,
+            "wptype": "node standard",
+            "wpx": 2690.92338949943,
+            "wpy": 398.2825038573228,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 75,
+            "wptype": "node standard",
+            "wpx": 2610.923389179272,
+            "wpy": 478.28250344376943,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 76,
+            "wptype": "node standard",
+            "wpx": 2754.4945110425174,
+            "wpy": 478.29285133869007,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 77,
+            "wptype": "node standard",
+            "wpx": 2794.472323484931,
+            "wpy": 518.29676734398,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 78,
+            "wptype": "node standard",
+            "wpx": 2470.894105651185,
+            "wpy": 478.27632968880846,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 79,
+            "wptype": "node standard",
+            "wpx": 2410.916292637858,
+            "wpy": 478.2680866349323,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 80,
+            "wptype": "node standard",
+            "wpx": 2390.916292535401,
+            "wpy": 498.2680864202964,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 81,
+            "wptype": "node standard",
+            "wpx": 2390.8941046407854,
+            "wpy": 514.4042644095417,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 82,
+            "wptype": "node standard",
+            "wpx": 2390.8941053310264,
+            "wpy": 558.2763292752551,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 83,
+            "wptype": "node standard",
+            "wpx": 2390.8941046465056,
+            "wpy": 574.4042648867674,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 84,
+            "wptype": "node standard",
+            "wpx": 2410.894104597683,
+            "wpy": 594.4042650196819,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 85,
+            "wptype": "node standard",
+            "wpx": 2468.7585431392063,
+            "wpy": 594.3712445122009,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 86,
+            "wptype": "node standard",
+            "wpx": 2754.4723227855843,
+            "wpy": 594.404267156387,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 87,
+            "wptype": "node standard",
+            "wpx": 2794.4945102287948,
+            "wpy": 554.4003514198171,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 88,
+            "wptype": "node standard",
+            "wpx": 2802.2233902232897,
+            "wpy": -279.73953488688016,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 89,
+            "wptype": "node standard",
+            "wpx": 2802.223390903743,
+            "wpy": -339.4794392700071,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 90,
+            "wptype": "node standard",
+            "wpx": 2802.2012036839055,
+            "wpy": -350.7569086665967,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 91,
+            "wptype": "node standard",
+            "wpx": 2822.361790729063,
+            "wpy": -362.44137576986464,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 92,
+            "wptype": "node standard",
+            "wpx": 2832.1541910606875,
+            "wpy": -356.8397159142921,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 93,
+            "wptype": "node standard",
+            "wpx": 2782.0628040444917,
+            "wpy": -385.4774623220228,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 94,
+            "wptype": "node standard",
+            "wpx": 2772.2925909579276,
+            "wpy": -391.0830379136753,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 95,
+            "wptype": "node standard",
+            "wpx": 2802.2012038107505,
+            "wpy": -397.15801373827844,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 96,
+            "wptype": "node standard",
+            "wpx": 2802.2233909338297,
+            "wpy": -408.44331450551135,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 97,
+            "wptype": "node standard",
+            "wpx": 2802.2022128973754,
+            "wpy": -457.3299481833885,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 98,
+            "wptype": "node standard",
+            "wpx": 2735.783740010955,
+            "wpy": -441.4279342298604,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 99,
+            "wptype": "node standard",
+            "wpx": 2690.696615381484,
+            "wpy": -437.75664388745145,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 100,
+            "wptype": "node standard",
+            "wpx": 2831.7590845603386,
+            "wpy": -519.4084351899239,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 101,
+            "wptype": "node standard",
+            "wpx": 2600.1753449919806,
+            "wpy": -489.5412613137869,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 102,
+            "wptype": "node standard",
+            "wpx": 2568.909373502737,
+            "wpy": -522.0969041913728,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 103,
+            "wptype": "node standard",
+            "wpx": 2563.296905496526,
+            "wpy": -532.9025147485175,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 104,
+            "wptype": "node standard",
+            "wpx": 2549.1777994148442,
+            "wpy": -560.0253581429176,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 105,
+            "wptype": "node standard",
+            "wpx": 2564.0306688851765,
+            "wpy": -552.6647065092537,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 106,
+            "wptype": "node standard",
+            "wpx": 2580.6879515445103,
+            "wpy": -579.5009644113563,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 107,
+            "wptype": "node standard",
+            "wpx": 2502.2230532520744,
+            "wpy": -599.4441951615688,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 108,
+            "wptype": "node standard",
+            "wpx": 2400.7828911084107,
+            "wpy": -631.395946574848,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 109,
+            "wptype": "node standard",
+            "wpx": 2389.7620328900316,
+            "wpy": -660.9599830402926,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 110,
+            "wptype": "node standard",
+            "wpx": 2591.2466282963114,
+            "wpy": -606.4226247112697,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 111,
+            "wptype": "node standard",
+            "wpx": 2605.544533757153,
+            "wpy": -709.3630431046362,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 112,
+            "wptype": "node standard",
+            "wpx": 2637.530746758585,
+            "wpy": -745.434438299924,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 113,
+            "wptype": "node standard",
+            "wpx": 2609.366187345463,
+            "wpy": -757.8457040061057,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 114,
+            "wptype": "node standard",
+            "wpx": 2508.622657995514,
+            "wpy": -800.4924652023615,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 115,
+            "wptype": "node standard",
+            "wpx": 2464.7520988190463,
+            "wpy": -782.6904048714737,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 116,
+            "wptype": "node standard",
+            "wpx": 2594.333983878807,
+            "wpy": -778.8062890504358,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 117,
+            "wptype": "node standard",
+            "wpx": 2669.4226323079874,
+            "wpy": -759.8067526946992,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 118,
+            "wptype": "node standard",
+            "wpx": 2704.780291958155,
+            "wpy": -758.9252990433722,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 119,
+            "wptype": "node standard",
+            "wpx": 2754.3332978914195,
+            "wpy": -768.867006002688,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 120,
+            "wptype": "node standard",
+            "wpx": 2802.2233929783383,
+            "wpy": -745.7017058855806,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 121,
+            "wptype": "node standard",
+            "wpx": 2802.2233929296617,
+            "wpy": -729.6523542492772,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 122,
+            "wptype": "node standard",
+            "wpx": 2834.3554852365933,
+            "wpy": -784.9202730758936,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 123,
+            "wptype": "node standard",
+            "wpx": 2947.3541142873974,
+            "wpy": -807.5897138654451,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 124,
+            "wptype": "node standard",
+            "wpx": 3013.5098621161656,
+            "wpy": -667.055245420984,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 125,
+            "wptype": "node standard",
+            "wpx": 2954.649254834702,
+            "wpy": -619.2322685498544,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 126,
+            "wptype": "node standard",
+            "wpx": 2942.079602083121,
+            "wpy": -574.7871297984017,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 127,
+            "wptype": "node standard",
+            "wpx": 2972.4562875860706,
+            "wpy": -488.8770873645126,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 128,
+            "wptype": "node standard",
+            "wpx": 2970.3371463347207,
+            "wpy": -430.045081449495,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 129,
+            "wptype": "node standard",
+            "wpx": 2931.4438898424323,
+            "wpy": -341.2390854615594,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 130,
+            "wptype": "node standard",
+            "wpx": 2993.855721954656,
+            "wpy": -238.38905034163804,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 131,
+            "wptype": "node standard",
+            "wpx": 2973.801727201346,
+            "wpy": -275.8418037084891,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 132,
+            "wptype": "node standard",
+            "wpx": 2948.225002386307,
+            "wpy": -290.4702331617234,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 133,
+            "wptype": "node standard",
+            "wpx": 2600.548526651655,
+            "wpy": -654.1923976059998,
+            "wpz": 0.0
+        },
+        {
+            "wpid": 134,
+            "wptype": "node standard",
+            "wpx": 2602.0828937093124,
+            "wpy": -665.4476181139262,
+            "wpz": 0.0
+        }
+    ],
+    "Legs": [
+        {
+            "legId": 0,
+            "legLength": 125.8139876079183,
+            "legStartx": 1835.5591890010353,
+            "legStarty": -199.69614844123976,
+            "legStartz": 0.0,
+            "legEndx": 1915.5773506750224,
+            "legEndy": -119.5658237011175,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 1,
+            "legLength": 125.79572602932436,
+            "legStartx": 1915.5773507312258,
+            "legStarty": -119.5658237343486,
+            "legStartz": 0.0,
+            "legEndx": 1995.5813763878846,
+            "legEndy": -199.7000643305255,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 2,
+            "legLength": 125.68730761242035,
+            "legStartx": 2422.436610618696,
+            "legStarty": -199.69614514029172,
+            "legStartz": 0.0,
+            "legEndx": 2502.458800256841,
+            "legEndy": -119.69559854967643,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 3,
+            "legLength": 125.64208656405597,
+            "legStartx": 2502.458800309215,
+            "legStarty": -119.695598583515,
+            "legStartz": 0.0,
+            "legEndx": 2582.4366136064004,
+            "legEndy": -199.69614506899086,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 4,
+            "legLength": 125.68981239887673,
+            "legStartx": 2802.2233902232897,
+            "legStarty": -279.73953488688034,
+            "legStartz": 0.0,
+            "legEndx": 2722.20120247704,
+            "legEndy": -199.7356195504716,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 5,
+            "legLength": 23.262306931043323,
+            "legStartx": 2607.9254047424715,
+            "legStarty": -199.7339427079338,
+            "legStartz": 0.0,
+            "legEndx": 2626.263852088173,
+            "legEndy": -187.66016512297705,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 6,
+            "legLength": 118.70834795721662,
+            "legStartx": 2657.2384547688353,
+            "legStarty": -115.94472257407938,
+            "legStartz": 0.0,
+            "legEndx": 2712.3425467502825,
+            "legEndy": -199.73905265761547,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 7,
+            "legLength": 83.56142009103806,
+            "legStartx": 406.41999773911425,
+            "legStarty": -159.79043415847,
+            "legStartz": 0.0,
+            "legEndx": 475.5822134017738,
+            "legEndy": -199.6256862297192,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 8,
+            "legLength": 72.50153924313068,
+            "legStartx": 303.09939148264243,
+            "legStarty": 118.2307100842861,
+            "legStartz": 0.0,
+            "legEndx": 279.5819131015874,
+            "legEndy": 59.80501697744925,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 9,
+            "legLength": 18.2685157240538,
+            "legStartx": 485.60048056795625,
+            "legStarty": 162.91158259401757,
+            "legStartz": 0.0,
+            "legEndx": 468.2303316025073,
+            "legEndy": 165.98533255343932,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 10,
+            "legLength": 87.19675450635755,
+            "legStartx": 554.8257921866257,
+            "legStarty": -199.63347787913548,
+            "legStartz": 0.0,
+            "legEndx": 625.7865715108982,
+            "legEndy": -156.57353383478102,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 11,
+            "legLength": 123.03181949232884,
+            "legStartx": 649.023715615057,
+            "legStarty": -111.93565051261365,
+            "legStartz": 0.0,
+            "legEndx": 702.222113515091,
+            "legEndy": -199.63677669426426,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 12,
+            "legLength": 103.36407438923139,
+            "legStartx": 763.9040738627708,
+            "legStarty": -40.808055047969475,
+            "legStartz": 0.0,
+            "legEndx": 675.2448977303657,
+            "legEndy": -61.51898413644143,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 13,
+            "legLength": 103.33660355084741,
+            "legStartx": 651.1447853947479,
+            "legStarty": 41.73964840223786,
+            "legStartz": 0.0,
+            "legEndx": 739.8039615084616,
+            "legEndy": 62.4505774337786,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 14,
+            "legLength": 56.72962390531948,
+            "legStartx": 723.3713356146975,
+            "legStarty": 30.930514217549206,
+            "legStartz": 0.0,
+            "legEndx": 735.2259980255478,
+            "legEndy": -19.816827738757986,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 15,
+            "legLength": 56.78567360624292,
+            "legStartx": 691.655336379151,
+            "legStarty": -29.995005259175223,
+            "legStartz": 0.0,
+            "legEndx": 679.8006739861139,
+            "legEndy": 20.752336727170693,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 16,
+            "legLength": 71.44116425513411,
+            "legStartx": 764.0068810431238,
+            "legStarty": 108.94368386696848,
+            "legStartz": 0.0,
+            "legEndx": 738.9930060479851,
+            "legEndy": 166.0179788406186,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 17,
+            "legLength": 43.94971430931022,
+            "legStartx": 621.0735647392602,
+            "legStarty": 198.05970418340718,
+            "legStartz": 0.0,
+            "legEndx": 577.8670194666278,
+            "legEndy": 197.7086291953054,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 18,
+            "legLength": 238.64327419637803,
+            "legStartx": 406.41999770527536,
+            "legStarty": -159.79043420753774,
+            "legStartz": 0.0,
+            "legEndx": 287.087239135038,
+            "legEndy": 46.87428230494562,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 19,
+            "legLength": 14.951047481861485,
+            "legStartx": 287.087239135038,
+            "legStarty": 46.87428230494562,
+            "legStartz": 0.0,
+            "legEndx": 279.58191306001225,
+            "legEndy": 59.805017060264646,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 20,
+            "legLength": 157.71869350340035,
+            "legStartx": 303.0993914826424,
+            "legStarty": 118.23071008428609,
+            "legStartz": 0.0,
+            "legEndx": 454.6097972325829,
+            "legEndy": 162.0460410759372,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 21,
+            "legLength": 14.17875078654628,
+            "legStartx": 454.6097972325829,
+            "legStarty": 162.0460410759372,
+            "legStartz": 0.0,
+            "legEndx": 468.23033159498425,
+            "legEndy": 165.98533257944754,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 22,
+            "legLength": 30.87600938173993,
+            "legStartx": 485.60048056795625,
+            "legStarty": 162.91158259401755,
+            "legStartz": 0.0,
+            "legEndx": 510.51534648937127,
+            "legEndy": 144.6748775336399,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 23,
+            "legLength": 174.27650582505728,
+            "legStartx": 510.51534648937127,
+            "legStarty": 144.6748775336399,
+            "legStartz": 0.0,
+            "legEndx": 651.1447854285868,
+            "legEndy": 41.73964845130553,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 24,
+            "legLength": 50.33163638076921,
+            "legStartx": 529.520046800262,
+            "legStarty": 183.71420705739357,
+            "legStartz": 0.0,
+            "legEndx": 577.8670195151421,
+            "legEndy": 197.70862916309696,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 25,
+            "legLength": 50.51024061526874,
+            "legStartx": 468.23033159498425,
+            "legStarty": 165.98533257944754,
+            "legStartz": 0.0,
+            "legEndx": 516.7487377660995,
+            "legEndy": 180.02985712202417,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 26,
+            "legLength": 92.62524498773706,
+            "legStartx": 621.0735647054213,
+            "legStarty": 198.05970413433948,
+            "legStartz": 0.0,
+            "legEndx": 710.4591124286464,
+            "legEndy": 173.77679106244165,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 27,
+            "legLength": 29.56995522772987,
+            "legStartx": 710.4591124286464,
+            "legStarty": 173.77679106244165,
+            "legStartz": 0.0,
+            "legEndx": 738.9930060645322,
+            "legEndy": 166.01797890168484,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 28,
+            "legLength": 52.415553665029016,
+            "legStartx": 764.0068810769627,
+            "legStarty": 108.94368391603626,
+            "legStartz": 0.0,
+            "legEndx": 739.8039615262949,
+            "legEndy": 62.45057742447733,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 29,
+            "legLength": 35.51939192077021,
+            "legStartx": 679.8006740074195,
+            "legStarty": 20.752336756407544,
+            "legStartz": 0.0,
+            "legEndx": 651.1447854285868,
+            "legEndy": 41.73964845130553,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 30,
+            "legLength": 35.546386232545494,
+            "legStartx": 723.3713355994688,
+            "legStarty": 30.930514300455798,
+            "legStartz": 0.0,
+            "legEndx": 739.8039615262949,
+            "legEndy": 62.45057742447733,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 31,
+            "legLength": 35.53960807249001,
+            "legStartx": 691.655336379151,
+            "legStarty": -29.995005259175173,
+            "legStartz": 0.0,
+            "legEndx": 675.2448977955202,
+            "legEndy": -61.51898418695458,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 32,
+            "legLength": 29.095471848314638,
+            "legStartx": 675.2448977955202,
+            "legStarty": -61.51898418695458,
+            "legStartz": 0.0,
+            "legEndx": 661.832226069125,
+            "legEndy": -87.33848687844787,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 33,
+            "legLength": 27.732262787331482,
+            "legStartx": 661.832226069125,
+            "legStarty": -87.33848687844787,
+            "legStartz": 0.0,
+            "legEndx": 649.0237156641248,
+            "legEndy": -111.93565054645262,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 34,
+            "legLength": 35.53960700425284,
+            "legStartx": 735.225998020268,
+            "legStarty": -19.816827748965864,
+            "legStartz": 0.0,
+            "legEndx": 763.9040739609062,
+            "legEndy": -40.80805511564739,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 35,
+            "legLength": 19.26075053361779,
+            "legStartx": 763.9040739609062,
+            "legStarty": -40.80805511564739,
+            "legStartz": 0.0,
+            "legEndx": 779.4520790250401,
+            "legEndy": -52.17625856403458,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 36,
+            "legLength": 127.28975934987905,
+            "legStartx": 779.4520790250401,
+            "legStarty": -52.17625856403458,
+            "legStartz": 0.0,
+            "legEndx": 882.1604947047612,
+            "legEndy": -127.36711029422685,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 37,
+            "legLength": 96.23273464091807,
+            "legStartx": 882.1604947047612,
+            "legStarty": -127.36711029422685,
+            "legStartz": 0.0,
+            "legEndx": 959.8138483399435,
+            "legEndy": -184.20632110576662,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 38,
+            "legLength": 50.324005135397506,
+            "legStartx": 625.7865715256772,
+            "legStarty": -156.57353384255575,
+            "legStartz": 0.0,
+            "legEndx": 649.0237156641248,
+            "legEndy": -111.93565054645262,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 39,
+            "legLength": 79.24357921697548,
+            "legStartx": 475.58221340178267,
+            "legStarty": -199.6256861978838,
+            "legStartz": 0.0,
+            "legEndx": 554.8257922356936,
+            "legEndy": -199.6334779129744,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 40,
+            "legLength": 147.39632136537924,
+            "legStartx": 554.8257922356936,
+            "legStarty": -199.6334779129744,
+            "legStartz": 0.0,
+            "legEndx": 702.2221135641579,
+            "legEndy": -199.6367767391159,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 41,
+            "legLength": 105.44736175109452,
+            "legStartx": 702.2221135641579,
+            "legStarty": -199.6367767391159,
+            "legStartz": 0.0,
+            "legEndx": 807.6694749248286,
+            "legEndy": -199.6458507843938,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 42,
+            "legLength": 148.53053670070773,
+            "legStartx": 858.5347672749925,
+            "legStarty": -199.64442430948924,
+            "legStartz": 0.0,
+            "legEndx": 1007.0653037978363,
+            "legEndy": -199.65169317811717,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 43,
+            "legLength": 50.86529237016606,
+            "legStartx": 807.6694749248286,
+            "legStarty": -199.6458507843938,
+            "legStartz": 0.0,
+            "legEndx": 858.5347672749925,
+            "legEndy": -199.64442430948924,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 44,
+            "legLength": 100.39178797354624,
+            "legStartx": 858.5347673240602,
+            "legStarty": -199.6444243433282,
+            "legStartz": 0.0,
+            "legEndx": 882.1604946153686,
+            "legEndy": -127.36711041919926,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 45,
+            "legLength": 50.548455393755454,
+            "legStartx": 959.8138483061047,
+            "legStarty": -184.2063211548343,
+            "legStartz": 0.0,
+            "legEndx": 1007.0653037639975,
+            "legEndy": -199.65169321402138,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 46,
+            "legLength": 828.4938863958876,
+            "legStartx": 1007.0653037978363,
+            "legStarty": -199.65169317811717,
+            "legStartz": 0.0,
+            "legEndx": 1835.5591890010355,
+            "legEndy": -199.69614844123976,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 47,
+            "legLength": 426.8552343164721,
+            "legStartx": 1995.581376354055,
+            "legStarty": -199.7000643065138,
+            "legStartz": 0.0,
+            "legEndx": 2422.436610652535,
+            "legEndy": -199.6961450912239,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 48,
+            "legLength": 160.00000282188742,
+            "legStartx": 2422.436610652535,
+            "legStarty": -199.6961450912239,
+            "legStartz": 0.0,
+            "legEndx": 2582.4366134744223,
+            "legEndy": -199.69614506472521,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 49,
+            "legLength": 25.48881921044603,
+            "legStartx": 2582.4366134744223,
+            "legStarty": -199.69614506472521,
+            "legStartz": 0.0,
+            "legEndx": 2607.925404659565,
+            "legEndy": -199.7339427231625,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 50,
+            "legLength": 104.4171421819241,
+            "legStartx": 2607.925404659565,
+            "legStarty": -199.7339427231625,
+            "legStartz": 0.0,
+            "legEndx": 2712.3425467164543,
+            "legEndy": -199.73905267309192,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 51,
+            "legLength": 78.11869630930636,
+            "legStartx": 2626.263852082299,
+            "legStarty": -187.66016513338354,
+            "legStartz": 0.0,
+            "legEndx": 2657.2384547688353,
+            "legEndy": -115.94472257407938,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 52,
+            "legLength": 52.774161330481476,
+            "legStartx": 2782.0628039277462,
+            "legStarty": -385.47746238631913,
+            "legStartz": 0.0,
+            "legEndx": 2802.2233909405254,
+            "legEndy": -339.4794393054464,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 53,
+            "legLength": 41.38679149588195,
+            "legStartx": 2802.2233909866495,
+            "legStarty": -339.4794392547781,
+            "legStartz": 0.0,
+            "legEndx": 2832.1541910814067,
+            "legEndy": -356.83971589527766,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 54,
+            "legLength": 41.33984770348983,
+            "legStartx": 2822.361790646157,
+            "legStarty": -362.4413757850935,
+            "legStartz": 0.0,
+            "legEndx": 2802.201203802497,
+            "legEndy": -397.10104717593185,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 55,
+            "legLength": 41.81683042711857,
+            "legStartx": 2802.223390982898,
+            "legStarty": -408.4433145393502,
+            "legStartz": 0.0,
+            "legEndx": 2772.27040355576,
+            "legEndy": -391.0791222233007,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 56,
+            "legLength": 45.75315543698606,
+            "legStartx": 2600.1753448752356,
+            "legStarty": -489.54126137808345,
+            "legStartz": 0.0,
+            "legEndx": 2568.909373498994,
+            "legEndy": -522.0969041894214,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 57,
+            "legLength": 62.917019117269575,
+            "legStartx": 2502.245240580041,
+            "legStarty": -599.4481108824201,
+            "legStartz": 0.0,
+            "legEndx": 2549.1777994158933,
+            "legEndy": -560.0253581434599,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 58,
+            "legLength": 80.13347028425926,
+            "legStartx": 2600.1753449919806,
+            "legStarty": -489.5412613137869,
+            "legStartz": 0.0,
+            "legEndx": 2669.7326901264137,
+            "legEndy": -449.75245889843836,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 59,
+            "legLength": 11.281387236248962,
+            "legStartx": 2772.2704036637997,
+            "legStarty": -391.07912214375665,
+            "legStartz": 0.0,
+            "legEndx": 2782.0628040444917,
+            "legEndy": -385.4774623220228,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 60,
+            "legLength": 19.198744570137233,
+            "legStartx": 2549.1777994148442,
+            "legStarty": -560.0253581429176,
+            "legStartz": 0.0,
+            "legEndx": 2558.051919054716,
+            "legEndy": -543.0006175079882,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 61,
+            "legLength": 36.338996640593045,
+            "legStartx": 2400.782891191317,
+            "legStarty": -631.3959465596193,
+            "legStartz": 0.0,
+            "legEndx": 2389.762032861252,
+            "legEndy": -660.9599829939928,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 62,
+            "legLength": 14.455291055179906,
+            "legStartx": 2400.7828911084107,
+            "legStarty": -631.395946574848,
+            "legStartz": 0.0,
+            "legEndx": 2414.573634299333,
+            "legEndy": -627.0634136284094,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 63,
+            "legLength": 91.91798246440537,
+            "legStartx": 2414.573634299333,
+            "legStarty": -627.0634136284094,
+            "legStartz": 0.0,
+            "legEndx": 2502.2452406291086,
+            "legEndy": -599.448110916259,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 64,
+            "legLength": 50.664315781803715,
+            "legStartx": 2464.7520986870722,
+            "legStarty": -782.6904048528635,
+            "legStartz": 0.0,
+            "legEndx": 2508.622657911919,
+            "legEndy": -800.4924651921473,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 65,
+            "legLength": 35.658369976649155,
+            "legStartx": 2704.780292041062,
+            "legStarty": -758.9252990281436,
+            "legStartz": 0.0,
+            "legEndx": 2669.4226324386773,
+            "legEndy": -759.8067527081936,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 66,
+            "legLength": 68.6724531949624,
+            "legStartx": 2508.622657995514,
+            "legStarty": -800.4924652023615,
+            "legStartz": 0.0,
+            "legEndx": 2575.1971361500537,
+            "legEndy": -783.6477424006926,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 67,
+            "legLength": 81.23216340967438,
+            "legStartx": 2389.7620328900316,
+            "legStarty": -660.9599830402926,
+            "legStartz": 0.0,
+            "legEndx": 2432.3788433458467,
+            "legEndy": -730.1154010405417,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 68,
+            "legLength": 61.74268132949511,
+            "legStartx": 2432.3788433458467,
+            "legStarty": -730.1154010405417,
+            "legStartz": 0.0,
+            "legEndx": 2464.7520988190463,
+            "legEndy": -782.6904048714737,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 69,
+            "legLength": 212.59494794459735,
+            "legStartx": 2947.3541142687877,
+            "legStarty": -807.5897139974195,
+            "legStartz": 0.0,
+            "legEndx": 3013.509862078574,
+            "legEndy": -667.0552454746735,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 70,
+            "legLength": 46.418418881321045,
+            "legStartx": 2782.0628040444917,
+            "legStarty": -385.4774623220228,
+            "legStartz": 0.0,
+            "legEndx": 2822.361790729063,
+            "legEndy": -362.44137576986464,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 71,
+            "legLength": 11.28138721045992,
+            "legStartx": 2822.361790729063,
+            "legStarty": -362.44137576986464,
+            "legStartz": 0.0,
+            "legEndx": 2832.1541910606875,
+            "legEndy": -356.8397159142921,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 72,
+            "legLength": 70.7743878115092,
+            "legStartx": 2754.333297906648,
+            "legStarty": -768.8670060855945,
+            "legStartz": 0.0,
+            "legEndx": 2802.2233929205304,
+            "legEndy": -729.6523542492771,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 73,
+            "legLength": 54.87908358515491,
+            "legStartx": 2802.2233929783383,
+            "legStarty": -745.7017058855806,
+            "legStartz": 0.0,
+            "legEndx": 2834.3332980045484,
+            "legEndy": -784.9163572754132,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 74,
+            "legLength": 79.75264686137938,
+            "legStartx": 2802.2233929296617,
+            "legStarty": -729.6523542492772,
+            "legStartz": 0.0,
+            "legEndx": 2802.228374476428,
+            "legEndy": -649.8997075434775,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 75,
+            "legLength": 59.739904569285414,
+            "legStartx": 2802.2233902232897,
+            "legStarty": -279.73953488688016,
+            "legStartz": 0.0,
+            "legEndx": 2802.228372698829,
+            "legEndy": -339.4794392483893,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 76,
+            "legLength": 48.112407833761395,
+            "legStartx": 2735.783740010955,
+            "legStarty": -441.4279342298603,
+            "legStartz": 0.0,
+            "legEndx": 2690.674428015593,
+            "legEndy": -437.752728264895,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 77,
+            "legLength": 123.66173737804007,
+            "legStartx": 2735.783740010955,
+            "legStarty": -441.4279342298604,
+            "legStartz": 0.0,
+            "legEndx": 2831.7590845603386,
+            "legEndy": -519.4084351899239,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 78,
+            "legLength": 82.48559887437125,
+            "legStartx": 2831.7590845603386,
+            "legStarty": -519.4084351899239,
+            "legStartz": 0.0,
+            "legEndx": 2895.788647636145,
+            "legEndy": -571.4092916634959,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 79,
+            "legLength": 71.06237109793807,
+            "legStartx": 2802.2022128973754,
+            "legStarty": -457.3299481833885,
+            "legStartz": 0.0,
+            "legEndx": 2831.759084535072,
+            "legEndy": -519.4084351193562,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 80,
+            "legLength": 29.08165005459289,
+            "legStartx": 2591.246628296312,
+            "legStarty": -606.4226247112696,
+            "legStartz": 0.0,
+            "legEndx": 2580.687951580281,
+            "legEndy": -579.500964361084,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 81,
+            "legLength": 48.658916348270864,
+            "legStartx": 2591.2466282963114,
+            "legStarty": -606.4226247112697,
+            "legStartz": 0.0,
+            "legEndx": 2600.526339391366,
+            "legEndy": -654.1884817870131,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 82,
+            "legLength": 28.011083011560036,
+            "legStartx": 2594.3117965170018,
+            "legStarty": -778.8023733786523,
+            "legStartz": 0.0,
+            "legEndx": 2609.3661873053675,
+            "legEndy": -757.8457040090425,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 83,
+            "legLength": 51.757964419441606,
+            "legStartx": 2605.5445337419237,
+            "legStarty": -709.3630430217296,
+            "legStartz": 0.0,
+            "legEndx": 2637.5307467540174,
+            "legEndy": -745.4344383227686,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 84,
+            "legLength": 68.58939169542286,
+            "legStartx": 2637.530746758585,
+            "legStarty": -745.434438299924,
+            "legStartz": 0.0,
+            "legEndx": 2704.780291958155,
+            "legEndy": -758.9252990433722,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 85,
+            "legLength": 50.54045839015556,
+            "legStartx": 2704.780291958155,
+            "legStarty": -758.9252990433722,
+            "legStartz": 0.0,
+            "legEndx": 2754.3332978914195,
+            "legEndy": -768.867006002688,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 86,
+            "legLength": 28.597470616197576,
+            "legStartx": 2834.3554852365933,
+            "legStarty": -784.9202730758936,
+            "legStartz": 0.0,
+            "legEndx": 2862.3948510590917,
+            "legEndy": -790.5424870451762,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 87,
+            "legLength": 86.65266499397636,
+            "legStartx": 2862.3948510590917,
+            "legStarty": -790.5424870451762,
+            "legStartz": 0.0,
+            "legEndx": 2947.3541142873974,
+            "legEndy": -807.5897138654451,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 88,
+            "legLength": 44.051645758133226,
+            "legStartx": 2602.0828938565155,
+            "legStarty": -665.4476182154431,
+            "legStartz": 0.0,
+            "legEndx": 2605.544533757153,
+            "legEndy": -709.3630431046362,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 89,
+            "legLength": 48.63304888895952,
+            "legStartx": 2605.544533757153,
+            "legStarty": -709.3630431046362,
+            "legStartz": 0.0,
+            "legEndx": 2609.366187345463,
+            "legEndy": -757.8457040061057,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 90,
+            "legLength": 16.04935163630351,
+            "legStartx": 2802.2233929783383,
+            "legStarty": -745.7017058855806,
+            "legStartz": 0.0,
+            "legEndx": 2802.2233929296617,
+            "legEndy": -729.6523542492772,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 91,
+            "legLength": 81.61652927703904,
+            "legStartx": 2754.3332978914195,
+            "legStarty": -768.867006002688,
+            "legStartz": 0.0,
+            "legEndx": 2834.3554852365933,
+            "legEndy": -784.9202730758936,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 92,
+            "legLength": 44.84478396175544,
+            "legStartx": 2973.801727235184,
+            "legStarty": -275.8418036594213,
+            "legStartz": 0.0,
+            "legEndx": 2993.8557220077605,
+            "legEndy": -238.38905028212164,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 93,
+            "legLength": 81.10399459504345,
+            "legStartx": 2832.1541910606875,
+            "legStarty": -356.8397159142921,
+            "legStartz": 0.0,
+            "legEndx": 2902.5636411091095,
+            "legEndy": -316.5859299662402,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 94,
+            "legLength": 20.679305317191247,
+            "legStartx": 2563.296905462687,
+            "legStarty": -532.9025147975851,
+            "legStartz": 0.0,
+            "legEndx": 2564.0306688303112,
+            "legEndy": -552.6647065712859,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 95,
+            "legLength": 31.585594877746306,
+            "legStartx": 2580.6879515445103,
+            "legStarty": -579.5009644113563,
+            "legStartz": 0.0,
+            "legEndx": 2564.0306688851765,
+            "legEndy": -552.6647065092537,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 96,
+            "legLength": 120.22930474059564,
+            "legStartx": 2965.8481446448386,
+            "legStarty": 171.75882035606554,
+            "legStartz": 0.0,
+            "legEndx": 2886.0121191554604,
+            "legEndy": 246.3082597277941,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 97,
+            "legLength": 131.09515724364016,
+            "legStartx": 3046.3853124650823,
+            "legStarty": 246.30825989082297,
+            "legStartz": 0.0,
+            "legEndx": 2966.593662414888,
+            "legEndy": 160.84986780403483,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 98,
+            "legLength": 39.403623000866794,
+            "legStartx": 2993.8779093013354,
+            "legStarty": -238.70093899467565,
+            "legStartz": 0.0,
+            "legEndx": 2991.2122824043736,
+            "legEndy": -199.38758326356765,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 99,
+            "legLength": 361.07768914994983,
+            "legStartx": 2991.2122824043736,
+            "legStarty": -199.38758326356765,
+            "legStartz": 0.0,
+            "legEndx": 2966.5936624296437,
+            "legEndy": 160.84986780504005,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 100,
+            "legLength": 32.632147080916376,
+            "legStartx": 2684.388118450312,
+            "legStarty": -53.085154163217545,
+            "legStartz": 0.0,
+            "legEndx": 2690.923392049886,
+            "legEndy": -21.36068553690846,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 101,
+            "legLength": 93.09308781355911,
+            "legStartx": 2866.2875489538083,
+            "legStarty": 246.30434328318063,
+            "legStartz": 0.0,
+            "legEndx": 2792.822823012819,
+            "legEndy": 198.0288116151155,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 102,
+            "legLength": 62.831853049735955,
+            "legStartx": 2730.9455777590774,
+            "legStarty": 246.3043425607848,
+            "legStartz": 0.0,
+            "legEndx": 2690.945578022536,
+            "legEndy": 206.30434232541353,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 103,
+            "legLength": 38.88756233771631,
+            "legStartx": 2657.2384547688353,
+            "legStarty": -115.94472257407938,
+            "legStartz": 0.0,
+            "legEndx": 2672.6576419210196,
+            "legEndy": -80.24470615761697,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 104,
+            "legLength": 29.58454569772484,
+            "legStartx": 2672.6576419210196,
+            "legStarty": -80.24470615761697,
+            "legStartz": 0.0,
+            "legEndx": 2684.388118450312,
+            "legEndy": -53.08515416321734,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 105,
+            "legLength": 247.10515494304641,
+            "legStartx": 2684.388118450312,
+            "legStarty": -53.08515416321734,
+            "legStartz": 0.0,
+            "legEndx": 2782.3488382442947,
+            "legEndy": 173.77307243849032,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 106,
+            "legLength": 125.67712073693407,
+            "legStartx": 2690.9233895484977,
+            "legStarty": 398.28250382348403,
+            "legStartz": 0.0,
+            "legEndx": 2610.92338914542,
+            "legEndy": 478.2825034274007,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 107,
+            "legLength": 27.168750695813383,
+            "legStartx": 2610.923389179272,
+            "legStarty": 478.28250344376943,
+            "legStartz": 0.0,
+            "legEndx": 2583.7546385540463,
+            "legEndy": 478.2805449875598,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 108,
+            "legLength": 24.592715379503918,
+            "legStartx": 2690.944972323639,
+            "legStarty": 181.71162690429992,
+            "legStartz": 0.0,
+            "legEndx": 2690.9455779886966,
+            "legEndy": 206.30434227634578,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 109,
+            "legLength": 125.67025892271835,
+            "legStartx": 2690.909522011419,
+            "legStarty": 326.30825804639113,
+            "legStartz": 0.0,
+            "legEndx": 2770.931709757696,
+            "legEndy": 246.3043427291758,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 110,
+            "legLength": 68.68641452393759,
+            "legStartx": 691.655336379151,
+            "legStarty": -29.995005259175173,
+            "legStartz": 0.0,
+            "legEndx": 723.3713355994688,
+            "legEndy": 30.930514300455798,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 111,
+            "legLength": 68.68641532787451,
+            "legStartx": 679.8006740074195,
+            "legStarty": 20.752336756407544,
+            "legStartz": 0.0,
+            "legEndx": 735.225998020268,
+            "legEndy": -19.816827748965864,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 112,
+            "legLength": 160.0221874009317,
+            "legStartx": 1835.5591890010355,
+            "legStarty": -199.69614844123976,
+            "legStartz": 0.0,
+            "legEndx": 1995.581376354055,
+            "legEndy": -199.7000643065138,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 113,
+            "legLength": 31.45082706627032,
+            "legStartx": 1915.5830940954281,
+            "legStarty": -54.453727548490306,
+            "legStartz": 0.0,
+            "legEndx": 1895.5609066345942,
+            "legEndy": -34.449811898598924,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 114,
+            "legLength": 65.11209643916163,
+            "legStartx": 1915.5773506483192,
+            "legStarty": -119.56582374957736,
+            "legStartz": 0.0,
+            "legEndx": 1915.583094012521,
+            "legEndy": -54.4537275637191,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 115,
+            "legLength": 63.339683111743874,
+            "legStartx": 1895.5609066497755,
+            "legStarty": -34.44981195936839,
+            "legStartz": 0.0,
+            "legEndx": 1832.2212235682991,
+            "legEndy": -34.451770082755274,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 116,
+            "legLength": 152.28756994746973,
+            "legStartx": 1679.9336536334008,
+            "legStarty": -34.44981330616247,
+            "legStartz": 0.0,
+            "legEndx": 1832.2212235682991,
+            "legEndy": -34.451770082755274,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 117,
+            "legLength": 39.986132115347814,
+            "legStartx": 2730.9455777100093,
+            "legStarty": 246.3043425946239,
+            "legStartz": 0.0,
+            "legEndx": 2770.9317098253573,
+            "legEndy": 246.30434276955066,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 118,
+            "legLength": 47.582057892659606,
+            "legStartx": 2770.9317098253573,
+            "legStarty": 246.30434276955066,
+            "legStartz": 0.0,
+            "legEndx": 2818.513767677715,
+            "legEndy": 246.3063011689651,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 119,
+            "legLength": 47.77378133144526,
+            "legStartx": 2818.513767677715,
+            "legStarty": 246.3063011689651,
+            "legStartz": 0.0,
+            "legEndx": 2866.287548969037,
+            "legEndy": 246.30434320027416,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 120,
+            "legLength": 19.72457057525791,
+            "legStartx": 2866.287548969037,
+            "legStarty": 246.30434320027416,
+            "legStartz": 0.0,
+            "legEndx": 2886.012119155459,
+            "legEndy": 246.3082597353357,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 121,
+            "legLength": 110.34787852089188,
+            "legStartx": 2886.012119155459,
+            "legStarty": 246.3082597353357,
+            "legStartz": 0.0,
+            "legEndx": 2996.3599976068817,
+            "legEndy": 246.30434419775634,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 122,
+            "legLength": 50.025315060514494,
+            "legStartx": 2996.3599976068817,
+            "legStarty": 246.30434419775634,
+            "legStartz": 0.0,
+            "legEndx": 3046.3853125141504,
+            "legEndy": 246.3082598569838,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 123,
+            "legLength": 210.23310205963486,
+            "legStartx": 3046.3853125141504,
+            "legStarty": 246.3082598569838,
+            "legStartz": 0.0,
+            "legEndx": 3256.6184145737852,
+            "legEndy": 246.30826119464314,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 124,
+            "legLength": 81.86687561687374,
+            "legStartx": 764.0068810769627,
+            "legStarty": 108.94368391603626,
+            "legStartz": 0.0,
+            "legEndx": 801.8156929081133,
+            "legEndy": 181.5568994569096,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 125,
+            "legLength": 100.76502499408065,
+            "legStartx": 1579.168628647637,
+            "legStarty": -34.448518680366874,
+            "legStartz": 0.0,
+            "legEndx": 1679.9336536334008,
+            "legEndy": -34.44981330616247,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 126,
+            "legLength": 62.87167915156184,
+            "legStartx": 2502.4593829958067,
+            "legStarty": -74.45986929652344,
+            "legStartz": 0.0,
+            "legEndx": 2462.4371954510275,
+            "legEndy": -34.45595366908606,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 127,
+            "legLength": 45.23572923829753,
+            "legStartx": 2502.4588002449186,
+            "legStarty": -119.6955984667693,
+            "legStartz": 0.0,
+            "legEndx": 2502.459383112552,
+            "legEndy": -74.45986923222699,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 128,
+            "legLength": 99.72733408130968,
+            "legStartx": 2362.709861390662,
+            "legStarty": -34.456628281681105,
+            "legStartz": 0.0,
+            "legEndx": 2462.437195469689,
+            "legEndy": -34.45595357518232,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 129,
+            "legLength": 31.441267383779905,
+            "legStartx": 2690.94072139353,
+            "legStarty": 141.71162718766755,
+            "legStartz": 0.0,
+            "legEndx": 2670.918533997014,
+            "legEndy": 161.71554267601408,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 130,
+            "legLength": 31.43002539497065,
+            "legStartx": 2670.918534144149,
+            "legStarty": 161.71554264143353,
+            "legStartz": 0.0,
+            "legEndx": 2690.9449723026087,
+            "legEndy": 181.7116269043249,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 131,
+            "legLength": 23.217083383534924,
+            "legStartx": 2763.9875681886924,
+            "legStarty": 161.70173910822427,
+            "legStartz": 0.0,
+            "legEndx": 2782.3488383036256,
+            "legEndy": 173.77307247624276,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 132,
+            "legLength": 53.88356155335527,
+            "legStartx": 2670.918534061242,
+            "legStarty": 161.71554262620452,
+            "legStartz": 0.0,
+            "legEndx": 2617.0349725080855,
+            "legEndy": 161.7153963936198,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 133,
+            "legLength": 194.11435712501418,
+            "legStartx": 3256.6184145737852,
+            "legStarty": 246.30826119464314,
+            "legStartz": 0.0,
+            "legEndx": 3450.7327716987993,
+            "legEndy": 246.3082623152959,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 134,
+            "legLength": 163.15020362618444,
+            "legStartx": 3450.7327716987993,
+            "legStarty": 246.3082623152959,
+            "legStartz": 0.0,
+            "legEndx": 3613.8829753132286,
+            "legEndy": 246.3102208436635,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 135,
+            "legLength": 31.413443156717136,
+            "legStartx": 2410.8941046281407,
+            "legStarty": 594.4042648538685,
+            "legStartz": 0.0,
+            "legEndx": 2390.894104708217,
+            "legEndy": 574.4042647700226,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 136,
+            "legLength": 31.40014790170677,
+            "legStartx": 2390.916292535401,
+            "legStarty": 498.2680864202962,
+            "legStartz": 0.0,
+            "legEndx": 2410.9162926870276,
+            "legEndy": 478.2680866565226,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 137,
+            "legLength": 124.46874003177717,
+            "legStartx": 2468.7585430901386,
+            "legStarty": 594.3712445460396,
+            "legStartz": 0.0,
+            "legEndx": 2390.894104719117,
+            "legEndy": 514.4042643765171,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 138,
+            "legLength": 125.65946046738993,
+            "legStartx": 2390.8941053648655,
+            "legStarty": 558.2763293243228,
+            "legStartz": 0.0,
+            "legEndx": 2470.894105767933,
+            "legEndy": 478.27632977696527,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 139,
+            "legLength": 285.7137814870584,
+            "legStartx": 2468.7585431392063,
+            "legStarty": 594.3712445122009,
+            "legStartz": 0.0,
+            "legEndx": 2754.4723227179065,
+            "legEndy": 594.4042670582517,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 140,
+            "legLength": 62.850419757570755,
+            "legStartx": 2794.4945101458884,
+            "legStarty": 554.4003514045882,
+            "legStartz": 0.0,
+            "legEndx": 2754.4723226349947,
+            "legEndy": 594.4042670847615,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 141,
+            "legLength": 62.82187087059169,
+            "legStartx": 2754.4945110086787,
+            "legStarty": 478.29285128962226,
+            "legStartz": 0.0,
+            "legEndx": 2794.472323461845,
+            "legEndy": 518.2967673287861,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 142,
+            "legLength": 36.08242513120261,
+            "legStartx": 2794.472317775351,
+            "legStarty": 518.3179331133363,
+            "legStartz": 0.0,
+            "legEndx": 2794.4945102287948,
+            "legEndy": 554.4003514198171,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 143,
+            "legLength": 57.864447963145984,
+            "legStartx": 2410.894104597683,
+            "legStarty": 594.4042650196819,
+            "legStartz": 0.0,
+            "legEndx": 2468.7585431392063,
+            "legEndy": 594.3712445122009,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 144,
+            "legLength": 16.127935611512388,
+            "legStartx": 2390.8941046465056,
+            "legStarty": 574.4042648867674,
+            "legStartz": 0.0,
+            "legEndx": 2390.8941053310264,
+            "legEndy": 558.2763292752551,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 145,
+            "legLength": 43.87206486571331,
+            "legStartx": 2390.8941053310264,
+            "legStarty": 558.2763292752551,
+            "legStartz": 0.0,
+            "legEndx": 2390.8941046407854,
+            "legEndy": 514.4042644095417,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 146,
+            "legLength": 16.13619324386256,
+            "legStartx": 2390.8941046407854,
+            "legStarty": 514.4042644095417,
+            "legStartz": 0.0,
+            "legEndx": 2390.916292535401,
+            "legEndy": 498.2680864202964,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 147,
+            "legLength": 59.97781357976896,
+            "legStartx": 2410.916292637858,
+            "legStarty": 478.2680866349323,
+            "legStartz": 0.0,
+            "legEndx": 2470.894105651185,
+            "legEndy": 478.27632968880846,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 148,
+            "legLength": 112.86053298158124,
+            "legStartx": 2470.894105651185,
+            "legStarty": 478.27632968880846,
+            "legStartz": 0.0,
+            "legEndx": 2583.7546385540463,
+            "legEndy": 478.2805449875598,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 149,
+            "legLength": 27.168750695813383,
+            "legStartx": 2583.7546385540463,
+            "legStarty": 478.2805449875598,
+            "legStartz": 0.0,
+            "legEndx": 2610.923389179272,
+            "legEndy": 478.28250344376943,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 150,
+            "legLength": 143.57112223615806,
+            "legStartx": 2610.923389179272,
+            "legStarty": 478.28250344376943,
+            "legStartz": 0.0,
+            "legEndx": 2754.4945110425174,
+            "legEndy": 478.29285133869007,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 151,
+            "legLength": 110.29511773486324,
+            "legStartx": 2754.4945110425174,
+            "legStarty": 478.29285133869,
+            "legStartz": 0.0,
+            "legEndx": 2690.9233894972117,
+            "legEndy": 398.28250390638647,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 152,
+            "legLength": 49.23898355599275,
+            "legStartx": 2942.0796020492817,
+            "legStarty": -574.7871298474695,
+            "legStartz": 0.0,
+            "legEndx": 2954.6492548982333,
+            "legEndy": -619.2322685657955,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 153,
+            "legLength": 58.559847077592046,
+            "legStartx": 2948.2250023863076,
+            "legStarty": -290.4702331617234,
+            "legStartz": 0.0,
+            "legEndx": 2931.443889888347,
+            "legEndy": -341.2390854072054,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 154,
+            "legLength": 60.205880409757384,
+            "legStartx": 2972.4808111870093,
+            "legStarty": -488.8076295168495,
+            "legStartz": 0.0,
+            "legEndx": 2970.3371464238644,
+            "legEndy": -430.04508143154146,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 155,
+            "legLength": 96.94942147317929,
+            "legStartx": 2931.4438898424323,
+            "legStarty": -341.2390854615594,
+            "legStartz": 0.0,
+            "legEndx": 2970.3371463347207,
+            "legEndy": -430.045081449495,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 156,
+            "legLength": 91.19598662213238,
+            "legStartx": 2942.079602083121,
+            "legStarty": -574.7871297984017,
+            "legStartz": 0.0,
+            "legEndx": 2972.4808111041025,
+            "legEndy": -488.8076295320782,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 157,
+            "legLength": 62.82978781177152,
+            "legStartx": 2690.945578041224,
+            "legStarty": 201.8043424538279,
+            "legStartz": 0.0,
+            "legEndx": 2650.946097648572,
+            "legEndy": 241.8043421100753,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 158,
+            "legLength": 33.899601033288285,
+            "legStartx": 2617.0464966532104,
+            "legStarty": 241.8062997777049,
+            "legStartz": 0.0,
+            "legEndx": 2650.946097629967,
+            "legEndy": 241.8043420288268,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 159,
+            "legLength": 62.798097512371605,
+            "legStartx": 2650.9460975808997,
+            "legStarty": 241.80434206266585,
+            "legStartz": 0.0,
+            "legEndx": 2690.9368516490745,
+            "legEndy": 281.8043413239572,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 160,
+            "legLength": 62.51452825776041,
+            "legStartx": 2650.907902573187,
+            "legStarty": 81.67435650660997,
+            "legStartz": 0.0,
+            "legEndx": 2690.921225540739,
+            "legEndy": 121.0581070094426,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 161,
+            "legLength": 62.858103922795706,
+            "legStartx": 2690.930090035008,
+            "legStarty": 41.670440902014356,
+            "legStartz": 0.0,
+            "legEndx": 2650.9079025241485,
+            "legEndy": 81.67435648854081,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 162,
+            "legLength": 33.87292989788734,
+            "legStartx": 2617.03497286784,
+            "legStarty": 81.67044030482907,
+            "legStartz": 0.0,
+            "legEndx": 2650.907902539348,
+            "legEndy": 81.67435645754222,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 163,
+            "legLength": 93.06903505293793,
+            "legStartx": 2670.918534061242,
+            "legStarty": 161.71554262620452,
+            "legStartz": 0.0,
+            "legEndx": 2763.987568090557,
+            "legEndy": 161.70173917590205,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 164,
+            "legLength": 11.285322577371845,
+            "legStartx": 2802.2012038107505,
+            "legStarty": -397.15801373827844,
+            "legStartz": 0.0,
+            "legEndx": 2802.2233909338297,
+            "legEndy": -408.44331450551135,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 165,
+            "legLength": 13.292131841519502,
+            "legStartx": 516.7487377660995,
+            "legStarty": 180.02985712202417,
+            "legStartz": 0.0,
+            "legEndx": 529.520046800262,
+            "legEndy": 183.71420705739357,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 166,
+            "legLength": 44.55197667192523,
+            "legStartx": 516.7487376831928,
+            "legStarty": 180.02985710679542,
+            "legStartz": 0.0,
+            "legEndx": 510.515346462006,
+            "legEndy": 144.67487749625363,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 167,
+            "legLength": 17.973063768141703,
+            "legStartx": 738.9930060645322,
+            "legStarty": 166.01797890168484,
+            "legStartz": 0.0,
+            "legEndx": 756.3354370710936,
+            "legEndy": 161.29875142291803,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 168,
+            "legLength": 53.73875204049198,
+            "legStartx": 756.3354370863223,
+            "legStarty": 161.2987513400114,
+            "legStartz": 0.0,
+            "legEndx": 801.8156929045714,
+            "legEndy": 181.55689945875392,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 169,
+            "legLength": 9.85865629064243,
+            "legStartx": 2712.3425467164543,
+            "legStarty": -199.73905267309192,
+            "legStartz": 0.0,
+            "legEndx": 2722.201202409352,
+            "legEndy": -199.73561961003975,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 170,
+            "legLength": 10.934397218319331,
+            "legStartx": 2966.5936624296437,
+            "legStarty": 160.84986780504005,
+            "legStartz": 0.0,
+            "legEndx": 2965.8481446448386,
+            "legEndy": 171.7588203560656,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 171,
+            "legLength": 11.365686432105853,
+            "legStartx": 2602.082893841287,
+            "legStarty": -665.4476181325363,
+            "legStartz": 0.0,
+            "legEndx": 2600.548526684644,
+            "legEndy": -654.1923975570984,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 172,
+            "legLength": 24.106938232357113,
+            "legStartx": 2669.766273299665,
+            "legStarty": -449.75245887526796,
+            "legStartz": 0.0,
+            "legEndx": 2690.6744280687462,
+            "legEndy": -437.75272824950673,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 173,
+            "legLength": 11.372264841184622,
+            "legStartx": 2558.051919054716,
+            "legStarty": -543.0006175079882,
+            "legStartz": 0.0,
+            "legEndx": 2563.2747182666944,
+            "legEndy": -532.898599095344,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 174,
+            "legLength": 12.177298458385904,
+            "legStartx": 2563.2870976839695,
+            "legStarty": -532.8985990751546,
+            "legStartz": 0.0,
+            "legEndx": 2568.909373502737,
+            "legEndy": -522.0969041913728,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 175,
+            "legLength": 19.76178750389193,
+            "legStartx": 2575.1798087289576,
+            "legStarty": -783.6650697303537,
+            "legStartz": 0.0,
+            "legEndx": 2594.333983992934,
+            "legEndy": -778.8023734303737,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 176,
+            "legLength": 77.4541071403919,
+            "legStartx": 2594.333983992934,
+            "legStarty": -778.8023734303737,
+            "legStartz": 0.0,
+            "legEndx": 2669.4226323079874,
+            "legEndy": -759.8067526946992,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 177,
+            "legLength": 75.83935808547581,
+            "legStartx": 3013.5098621956904,
+            "legStarty": -667.0552456206362,
+            "legStartz": 0.0,
+            "legEndx": 2954.649254834702,
+            "legEndy": -619.2322685498544,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 178,
+            "legLength": 75.83935784311461,
+            "legStartx": 2954.649254834702,
+            "legStarty": -619.2322685498544,
+            "legStartz": 0.0,
+            "legEndx": 2895.788647636145,
+            "legEndy": -571.4092916634959,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 179,
+            "legLength": 94.01906465791689,
+            "legStartx": 2690.6744280687462,
+            "legStarty": -437.75272824950673,
+            "legStartz": 0.0,
+            "legEndx": 2772.292591056063,
+            "legEndy": -391.0830379813533,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 180,
+            "legLength": 192.5697593979484,
+            "legStartx": 2802.228374476428,
+            "legStarty": -649.8997075434775,
+            "legStartz": 0.0,
+            "legEndx": 2802.2283744917486,
+            "legEndy": -457.3299481455292,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 181,
+            "legLength": 48.886633852276866,
+            "legStartx": 2802.220017517443,
+            "legStarty": -457.3299482413971,
+            "legStartz": 0.0,
+            "legEndx": 2802.2233909338297,
+            "legEndy": -408.44331450551135,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 182,
+            "legLength": 52.58530154413495,
+            "legStartx": 2902.563641207245,
+            "legStarty": -316.5859300339182,
+            "legStartz": 0.0,
+            "legEndx": 2948.225002412761,
+            "legEndy": -290.5042500391978,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 183,
+            "legLength": 29.481455012459627,
+            "legStartx": 2948.225002412761,
+            "legStarty": -290.5042500391978,
+            "legStartz": 0.0,
+            "legEndx": 2973.8017272690236,
+            "legEndy": -275.84180361035374,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 184,
+            "legLength": 75.33818207799388,
+            "legStartx": 2690.946097990256,
+            "legStarty": 206.46615981340642,
+            "legStartz": 0.0,
+            "legEndx": 2690.9368516259533,
+            "legEndy": 281.80434132399046,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 185,
+            "legLength": 44.50393329000854,
+            "legStartx": 2690.947941156821,
+            "legStarty": 281.80434133953486,
+            "legStartz": 0.0,
+            "legEndx": 2690.909522011419,
+            "legEndy": 326.3082580463911,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 186,
+            "legLength": 71.9742471468765,
+            "legStartx": 2690.909522011419,
+            "legStarty": 326.3082580463911,
+            "legStartz": 0.0,
+            "legEndx": 2690.92338949943,
+            "legEndy": 398.2825038573228,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 187,
+            "legLength": 20.65352013225547,
+            "legStartx": 2690.9212255200127,
+            "legStarty": 121.05810700942061,
+            "legStartz": 0.0,
+            "legEndx": 2690.921225553719,
+            "legEndy": 141.711627141676,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 188,
+            "legLength": 39.999999927275184,
+            "legStartx": 2690.940721476437,
+            "legStarty": 141.71162720289612,
+            "legStartz": 0.0,
+            "legEndx": 2690.944972323639,
+            "legEndy": 181.71162690429992,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 189,
+            "legLength": 79.44054496156556,
+            "legStartx": 2690.901594884175,
+            "legStarty": 41.670440915216204,
+            "legStartz": 0.0,
+            "legEndx": 2690.9015948728215,
+            "legEndy": 121.1109858767818,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 190,
+            "legLength": 63.0311267119947,
+            "legStartx": 2690.9233920714555,
+            "legStarty": -21.360685487936735,
+            "legStartz": 0.0,
+            "legEndx": 2690.930090084076,
+            "legEndy": 41.67044086817532,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 191,
+            "legLength": 26.420545791818803,
+            "legStartx": 2782.3488382442947,
+            "legStarty": 173.77307243849032,
+            "legStartz": 0.0,
+            "legEndx": 2792.8228230375726,
+            "legEndy": 198.0288116044644,
+            "legEndz": 0.0
+        },
+        {
+            "legId": 192,
+            "legLength": 23.37513588202149,
+            "legStartx": 801.8156929081133,
+            "legStarty": 181.5568994569096,
+            "legStartz": 0.0,
+            "legEndx": 812.6024539774457,
+            "legEndy": 202.29437189537475,
+            "legEndz": 0.0
+        }
+    ]
+}
+

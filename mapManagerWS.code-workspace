@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "COM"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"type_traits": "c",
+			"cstdlib": "c",
+			"header.h": "c"
+		}
+	}
+}
