@@ -81,9 +81,6 @@ Node * convertLegs(Legs legs[]){
 				/* node reconized, create an arc
 				 * 
 				 */
-				n[madeNodes].x=legs[i].startx;
-				n[madeNodes].y=legs[i].starty;
-				n[madeNodes].nb_a=0;
 			}
 			
 
