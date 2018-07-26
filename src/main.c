@@ -89,7 +89,16 @@ int main(int argc, char const *argv[])
 		
 		
 	}
+
+    /**
+     * @brief test functions
+     * 
+     */
+    int k = countNodes(lg, lgoccur);
+
     
+
+    /*
     printf("\n__________________________________________________________");
     //printf("\n\n(0)\t: Copyrights");
     printf("\n(1)\t: Occurance of objects");
@@ -149,6 +158,7 @@ int main(int argc, char const *argv[])
         break;
     }
     system("./bin/api.exe");
+    */
 	return EXIT_SUCCESS;
 
 }

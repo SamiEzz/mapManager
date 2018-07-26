@@ -18,21 +18,51 @@ Bool8 isneighbour(Node n1, Node n2){
 	return 0;
 }
 /*
- * @brief 
+ * @brief count nodes from legs, a node is a unique (x,y) 
  * 
  * @param n1
  * @param 
  * @retval 
  * 
+//	int id,toids[MAX_NODE_ARCS];
  */ 
-int isnewnode(Node* N, float x,float y,int imax){
-	for(int i=0;i<imax;i++){
-		if(N->x==x && N->y==y){
-			return i;
-		}
+int countNodes(Legs * legs,int nlegs){
+	Legs lick;
+	float x[nlegs],y[nlegs];
+	/*
+	for (int k=0;k<nlegs;k++){
+		printf("\n %d",lick.id);
 	}
-	return -1;
+	*/
+	
+	int count=0;
+	int arcs[]=0;
+	for(int j=0;j<nlegs;j++){
+		for(int i=0;i<=count;i++){
+
+			lick = legs[i];
+			bool reconizedStart = lick.startx==x[j] && lick.starty == y[j];
+			bool reconizedEnd = lick.endx==x[j] && lick.endy == y[j];
+			if(!reconizedStart){
+				x[count]=lick.startx;
+				y[count]=lick.starty;
+				count++;
+			}
+			else if(!reconizedEnd){
+				x[count]=lick.endx;
+				y[count]=lick.endy;
+				count++;
+			}
+			else if(reconizedEnd || reconizedEnd){
+				arcs[j]++;
+			}
+		}
+	return count;
 }
+}
+		
+		
+
 
 /*
  * @brief read the contenant of a table of legs structure, and create nodes
@@ -48,39 +78,30 @@ int isnewnode(Node* N, float x,float y,int imax){
  * 
  */ 
 
-/**
+/*
  * @brief 
  * 
  * @return legtoarc 
- */
-Node * convertLegs(Legs legs[]){
-	int nleg=sizeof(legs)/sizeof(legs[0]);
-	Node * n = malloc(2*nleg*sizeof(Node));
-	int id=0,madeNodes=0;
 
-	/**
-	 * @brief loop to calculate number of arcs for each  node
-	 * 
-	 */
+struct Node * convertLegs(Legs legs[],int occurL){
+	int nleg=occurL;
+	Node * n = malloc(2*nleg*sizeof(Node));
+	int id=0,madeNodes=1;
+
 	for(int i=0;i<nleg;i++){
-		for(int j =0;j<madeNodes;j++){
+		for(int j =0;j<nleg;j++){
 			bool notReconized = legs[i].startx!=n[j].x || legs[i].starty != n[j].y;
 			bool reconizedStart = legs[i].startx==n[j].x && legs[i].starty == n[j].y;
 			bool reconizedEnd = legs[i].endx==n[j].x && legs[i].endy == n[j].y;
 			
 			if(notReconized){
-				/* node not reconized, create a new one
-				 * 
-				 */
 				n[madeNodes].x=legs[i].startx;
 				n[madeNodes].y=legs[i].starty;
 				n[madeNodes].nb_a=0;
 				madeNodes++;
 			}
-			else if(reconizedStart){
-				/* node reconized, create an arc
-				 * 
-				 */
+			else if(reconizedStart || reconizedEnd){
+				n[j].nb_a++;
 			}
 			
 
@@ -88,6 +109,7 @@ Node * convertLegs(Legs legs[]){
 	}
 	return n;
 }
+
 
 
 
@@ -157,8 +179,7 @@ Node * convertLegs(Legs legs[]){
  * @param cst 
  * @param nb_n 
  * @return Cartography 
- */
-Cartography carto(Legs legs[], Constants cst,int nb_n){
+Cartography carto(Legs legs, Constants cst,int nb_n){
 	Cartography c;
 	// CONSTANTS
 	c.def_max_speed = cst.vdef;
@@ -166,11 +187,11 @@ Cartography carto(Legs legs[], Constants cst,int nb_n){
 
 	// Nodes
 	c.nb_nodes = nb_n;
-	Node * tempN = getnodes(legs,nb_n);
-	c.nodes[c.nb_nodes];
 
 	return c;
 }
+
+ */
 //=====================================================================================
 int jsoneq(const char *json, jsmntok_t *tok, const char *s) {
 	if (tok->type == JSMN_STRING && (int) strlen(s) == tok->end - tok->start &&
@@ -413,7 +434,7 @@ struct Beacons beaconsExt(char *_JSON_STRING,initParser _IP,int _i,int objRank){
   }
 
 
-initParser getJsonToken(int expectNvalues,char * JSON_STRING){
+struct initParser getJsonToken(int expectNvalues,char * JSON_STRING){
 	initParser IP;
 	int r;
 	jsmn_parser p;
