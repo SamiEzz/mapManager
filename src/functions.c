@@ -36,10 +36,13 @@ int countNodes(Legs * legs,int nlegs){
 	*/
 	
 	int count=0;
-	int arcs[]=0;
+	int arcs[nlegs];
 	for(int j=0;j<nlegs;j++){
 		for(int i=0;i<=count;i++){
-
+/**
+ * @TODO use legs[i].id to loop
+ * 
+ */
 			lick = legs[i];
 			bool reconizedStart = lick.startx==x[j] && lick.starty == y[j];
 			bool reconizedEnd = lick.endx==x[j] && lick.endy == y[j];
@@ -48,13 +51,13 @@ int countNodes(Legs * legs,int nlegs){
 				y[count]=lick.starty;
 				count++;
 			}
-			else if(!reconizedEnd){
+			if(!reconizedEnd){
 				x[count]=lick.endx;
 				y[count]=lick.endy;
 				count++;
 			}
-			else if(reconizedEnd || reconizedEnd){
-				arcs[j]++;
+			if(reconizedEnd || reconizedEnd){
+				arcs[lick.id]++;
 			}
 		}
 	return count;
