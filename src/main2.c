@@ -11,7 +11,11 @@
 
 
 int main(int argc, char const *argv[])
-{
+{   
+    struct Legs legs;
+
+    struct Node N = convertLegs(Legs legs);
+
     bool check=4==4||1==2;
     printf("resp %d\n",check);
     return 0;

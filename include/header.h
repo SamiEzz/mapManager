@@ -72,7 +72,7 @@ typedef enum Node_type {
 
 typedef struct legtoarc{
     float x,y;
-    int arcsId[MAX_NODE_ARCS]
+    int arcsId[MAX_NODE_ARCS];
 } legtoarc;
 typedef struct Node Node, *Node_p;
 
@@ -109,7 +109,7 @@ typedef struct Mission {
 	UInt16 size;
 } Mission;
 
-typedef struct {
+typedef struct initParser {
     int r;
 	jsmn_parser p;
 	jsmntok_t * t;
@@ -171,11 +171,10 @@ struct Waypoints waypointsExt(char *_JSON_STRING,initParser _IP,int _i,int objRa
 struct Legs legsExt(char *_JSON_STRING,initParser _IP,int _i,int objRank);
 struct Constraints ConstrExt(char *_JSON_STRING,initParser _IP,int _i,int objRank);
 struct Constants CstExt(char *_JSON_STRING,initParser _IP,int _i);
+int countNodes(Legs * l,int nlegs);
 
 
-
-
-initParser getJsonToken(int expectNvalues,char * JSON_STRING);
+struct initParser getJsonToken(int expectNvalues,char * JSON_STRING);
 int objectOccurance(char * objectName,char * JSON_STRING, initParser IP);
 int objectRank(char * objectName,char * JSON_STRING, initParser IP);
 int nextObjectTab(char * objectName,char * JSON_STRING, initParser IP);
