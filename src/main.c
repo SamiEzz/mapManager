@@ -95,8 +95,17 @@ int main(int argc, char const *argv[])
      * 
      */
     int k = countNodes(lg, lgoccur);
-    printf(" %d\n",k);
-
+    //printf(" %d\n",k);
+    
+    struct Node * N;
+    N = convertLegs(lg,lgoccur);
+    printf("\nx\t\t y\t\t\t nbArc\n");
+    //printf("x, y\n");
+    
+    for(int i =0;i<k;i++){
+        printf("%f\t %f\t\t %d \n",N[i].x,N[i].y,N[i].nb_a);
+        //printf("%f, %f\n",N[i].x,N[i].y);
+	}
     
 
     /*
