@@ -95,6 +95,7 @@ int main(int argc, char const *argv[])
      * 
      */
     int k = countNodes(lg, lgoccur);
+    printf(" %d\n",k);
 
     
 

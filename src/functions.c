@@ -26,42 +26,51 @@ Bool8 isneighbour(Node n1, Node n2){
  * 
 //	int id,toids[MAX_NODE_ARCS];
  */ 
+
+int isNewNode(float x,float y,int size,float **base){
+	for(int i=0;i<size+1;i++){
+		if(x==base[0][i] && y==base[1][i]){
+			return 0;
+		}
+	}
+	return 1;
+}
 int countNodes(Legs * legs,int nlegs){
 	Legs lick;
-	float x[nlegs],y[nlegs];
+	int maxNodes=2*nlegs;
+	//float base[2][2*nlegs];
+	float **base = (float **)malloc(sizeof(float*)*2);
+	base[0]=(float*)malloc(sizeof(float)*maxNodes);
+	base[1]=(float*)malloc(sizeof(float)*maxNodes);
+	 
+	float x[maxNodes],y[maxNodes];
 	/*
 	for (int k=0;k<nlegs;k++){
+		lick = legs[k];
 		printf("\n %d",lick.id);
 	}
 	*/
-	
-	int count=0;
+	int madnodes=0;
 	int arcs[nlegs];
-	for(int j=0;j<nlegs;j++){
-		for(int i=0;i<=count;i++){
-/**
- * @TODO use legs[i].id to loop
- * 
- */
-			lick = legs[i];
-			bool reconizedStart = lick.startx==x[j] && lick.starty == y[j];
-			bool reconizedEnd = lick.endx==x[j] && lick.endy == y[j];
-			if(!reconizedStart){
-				x[count]=lick.startx;
-				y[count]=lick.starty;
-				count++;
-			}
-			if(!reconizedEnd){
-				x[count]=lick.endx;
-				y[count]=lick.endy;
-				count++;
-			}
-			if(reconizedEnd || reconizedEnd){
-				arcs[lick.id]++;
-			}
+	for(int i=0;i<nlegs;i++){
+		lick = legs[i];
+		if(isNewNode(lick.startx,lick.starty,madnodes,base)){
+			printf("\nnew %d",lick.id);
+			base[0][madnodes]=lick.startx;
+			base[1][madnodes]=lick.starty;
+			madnodes++;
 		}
-	return count;
-}
+		if(isNewNode(lick.endx,lick.endy,madnodes,base)){
+			printf("\nnew \t %d",lick.id);
+			base[0][madnodes]=lick.endx;
+			base[1][madnodes]=lick.endy;
+			madnodes++;
+		}
+
+		//printf("\t %d ,%d",j,lick.id);
+
+	}
+	return madnodes;
 }
 		
 		
@@ -81,10 +90,6 @@ int countNodes(Legs * legs,int nlegs){
  * 
  */ 
 
-/*
- * @brief 
- * 
- * @return legtoarc 
 
 struct Node * convertLegs(Legs legs[],int occurL){
 	int nleg=occurL;
