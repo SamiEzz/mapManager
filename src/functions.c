@@ -8,8 +8,6 @@
  * @param IN n1
  * @param IN
  * @return if nodes position difference is less than 1 on x and y axes, the  
- * 
- */ 
 Bool8 isneighbour(Node n1, Node n2){
 	float epsilon = 1;
 	if((n1.x-n2.x)<epsilon && (n1.y-n2.y)<epsilon){
@@ -17,6 +15,8 @@ Bool8 isneighbour(Node n1, Node n2){
 	}
 	return 0;
 }
+ * 
+ */ 
 /*
  * @brief count nodes from legs, a node is a unique (x,y) 
  * 
@@ -55,13 +55,13 @@ int countNodes(Legs * legs,int nlegs){
 	for(int i=0;i<nlegs;i++){
 		lick = legs[i];
 		if(isNewNode(lick.startx,lick.starty,madnodes,base)){
-			printf("\nnew %d",lick.id);
+			//printf("\nnew %d",lick.id);
 			base[0][madnodes]=lick.startx;
 			base[1][madnodes]=lick.starty;
 			madnodes++;
 		}
 		if(isNewNode(lick.endx,lick.endy,madnodes,base)){
-			printf("\nnew \t %d",lick.id);
+			//printf("\nnew \t %d",lick.id);
 			base[0][madnodes]=lick.endx;
 			base[1][madnodes]=lick.endy;
 			madnodes++;
@@ -90,30 +90,66 @@ int countNodes(Legs * legs,int nlegs){
  * 
  */ 
 
+struct Node * existNode(float x,float y,Node n[],int madeNodes){
+	for(int i=0;i<madeNodes;i++){
+		if(n[i].x==x && n[i].y==y){
+			return &n[i];
+		}
+	}
+	return NULL;
+}
 
 struct Node * convertLegs(Legs legs[],int occurL){
+	int nNode=countNodes(legs,occurL);
 	int nleg=occurL;
-	Node * n = malloc(2*nleg*sizeof(Node));
-	int id=0,madeNodes=1;
-
+	Node * n = malloc(nNode*sizeof(Node));
+	Node * tempn;
+	//Arc tempA[MAX_NODE_ARCS];
+	int madeNodes=1;
+	/**
+	 * @brief 
+	 *  if existStartNode ?
+	 *  yes : create startnode
+	 * 		: create arc to end node
+	 *  no  : create node, ++madeNodes
+	 *  if existEndNode ?
+	 *  yes : create startnode
+	 * 		: create arc to startnode
+	 *  no  : create node, ++madeNodes
+	 * 
+	 */
+	
 	for(int i=0;i<nleg;i++){
-		for(int j =0;j<nleg;j++){
-			bool notReconized = legs[i].startx!=n[j].x || legs[i].starty != n[j].y;
-			bool reconizedStart = legs[i].startx==n[j].x && legs[i].starty == n[j].y;
-			bool reconizedEnd = legs[i].endx==n[j].x && legs[i].endy == n[j].y;
-			
-			if(notReconized){
-				n[madeNodes].x=legs[i].startx;
-				n[madeNodes].y=legs[i].starty;
-				n[madeNodes].nb_a=0;
-				madeNodes++;
-			}
-			else if(reconizedStart || reconizedEnd){
-				n[j].nb_a++;
-			}
-			
-
+		bool endCond = existNode(legs[i].endx,legs[i].endy,n,madeNodes)==NULL;
+		bool startCond = existNode(legs[i].startx,legs[i].starty,n,madeNodes)==NULL;
+		if(endCond){
+			n[madeNodes].x = legs[i].endx;
+			n[madeNodes].y = legs[i].endy;
+			madeNodes++;
 		}
+		if(startCond){
+			n[madeNodes].x = legs[i].startx;
+			n[madeNodes].y = legs[i].starty;
+			madeNodes++;
+		}
+		if(!endCond && startCond){
+			tempn = existNode(legs[i].endx,legs[i].endy,n,madeNodes);
+			n[madeNodes].x = legs[i].startx;
+			n[madeNodes].y = legs[i].starty;
+			n[madeNodes].arcs[n[madeNodes].nb_a].dest = tempn;
+			n[madeNodes].nb_a++;
+			madeNodes++;
+		}
+		if(endCond && !startCond){
+			tempn = existNode(legs[i].startx,legs[i].starty,n,madeNodes);
+		
+			n[madeNodes].x = legs[i].endx;
+			n[madeNodes].y = legs[i].endy;
+			n[madeNodes].arcs[n[madeNodes].nb_a].dest = tempn;
+			n[madeNodes].nb_a++;
+			madeNodes++;
+		}
+		
 	}
 	return n;
 }

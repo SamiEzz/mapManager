@@ -116,7 +116,6 @@ typedef struct initParser {
 } initParser;
 
 typedef struct Beacons {
-    
     int     id;
     float    x;
     float    y;
@@ -154,8 +153,8 @@ typedef struct Waypoints
 
 typedef struct Legs
 {
-    int id;
-    double length;
+    int       id;
+    double    length;
     double    startx;
     double    starty;
     double    startz;    
@@ -165,16 +164,17 @@ typedef struct Legs
 }Legs ;
 
 
-int jsoneq(const char *json, jsmntok_t *tok, const char *s);
 struct Beacons beaconsExt(char *_JSON_STRING,initParser _IP,int _i,int objRank);
 struct Waypoints waypointsExt(char *_JSON_STRING,initParser _IP,int _i,int objRank);
 struct Legs legsExt(char *_JSON_STRING,initParser _IP,int _i,int objRank);
 struct Constraints ConstrExt(char *_JSON_STRING,initParser _IP,int _i,int objRank);
 struct Constants CstExt(char *_JSON_STRING,initParser _IP,int _i);
-int countNodes(Legs * l,int nlegs);
-
-
+struct Node * convertLegs(Legs legs[],int occurL);
 struct initParser getJsonToken(int expectNvalues,char * JSON_STRING);
+
+
+int jsoneq(const char *json, jsmntok_t *tok, const char *s);
+int countNodes(Legs * l,int nlegs);
 int objectOccurance(char * objectName,char * JSON_STRING, initParser IP);
 int objectRank(char * objectName,char * JSON_STRING, initParser IP);
 int nextObjectTab(char * objectName,char * JSON_STRING, initParser IP);
