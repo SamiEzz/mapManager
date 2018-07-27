@@ -99,6 +99,16 @@ struct Node * existNode(float x,float y,Node n[],int madeNodes){
 	return NULL;
 }
 
+/**
+ * @brief 
+ * 
+ * @param legs 
+ * @param occurL 
+ * @return struct Node* 
+ * 
+ * @TODO see again :arcs affectation, 
+ * 		 and node.nb_a is not correctly incremented
+ */
 struct Node * convertLegs(Legs legs[],int occurL){
 	int nNode=countNodes(legs,occurL);
 	int nleg=occurL;
@@ -140,14 +150,17 @@ struct Node * convertLegs(Legs legs[],int occurL){
 			n[madeNodes].nb_a++;
 			madeNodes++;
 		}
+		
 		if(endCond && !startCond){
 			tempn = existNode(legs[i].startx,legs[i].starty,n,madeNodes);
-		
 			n[madeNodes].x = legs[i].endx;
 			n[madeNodes].y = legs[i].endy;
 			n[madeNodes].arcs[n[madeNodes].nb_a].dest = tempn;
 			n[madeNodes].nb_a++;
 			madeNodes++;
+		}
+		else{
+			//printf("\n=============================================\n");
 		}
 		
 	}
