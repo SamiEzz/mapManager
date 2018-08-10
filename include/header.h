@@ -179,6 +179,7 @@ typedef struct Legs
 
 
 struct Beacons beaconsExt(char *_JSON_STRING,initParser _IP,int _i,int objRank);
+struct Node nodesExt(char *_JSON_STRING,initParser _IP,int _i,int objRank);
 struct Waypoints waypointsExt(char *_JSON_STRING,initParser _IP,int _i,int objRank);
 struct Legs legsExt(char *_JSON_STRING,initParser _IP,int _i,int objRank);
 struct Constraints ConstrExt(char *_JSON_STRING,initParser _IP,int _i,int objRank);
