@@ -26,31 +26,43 @@ typedef double 			Double64;
 #define CARTO_NODE_NBR	653
 #define MAX_NODE_ARCS 4
 
-#define stBeacons	   "Beacons"
+#define stBeacons	        "Beacons"
     #define stBeaconid      "Beaconid"
     #define stBeaconx		"Beaconx"
     #define stBeacony	    "Beacony"
     #define stBeaconz	    "Beaconz"
+
+#define stnodes	            "nodes"
+    #define stNodeId        "nodId"
+    #define stnodx		    "nodx"
+    #define stnody	        "nody"
+    #define stnodeNbA	    "nodeNbA"
+    #define stnodeArcs	    "nodeArcs"
+    
+    
 #define stConstants	        "Constants"
-    #define stvdef "VDEF"
-    #define stadef "ADEF"
-    #define stv1 "V1"
-    #define stv2 "V2"
+    #define stvdef          "VDEF"
+    #define stadef          "ADEF"
+    #define stv1            "V1"
+    #define stv2            "V2"
+
 #define stConstraints       "Constraints"
-    #define stCid     "Cid"
-    #define stCvalue  "Cvalue"
-    #define stCname   "Cname"
-    #define stCtype   "Ctype"
-    #define stCx      "Cx"
-    #define stCy      "Cy"
-    #define stCz      "Cz"
-#define stWaypoints	   "Waypoints"
+    #define stCid           "Cid"
+    #define stCvalue        "Cvalue"
+    #define stCname         "Cname"
+    #define stCtype         "Ctype"
+    #define stCx            "Cx"
+    #define stCy            "Cy"
+    #define stCz            "Cz"
+
+#define stWaypoints	        "Waypoints"
     #define stwpid          "wpid"
     #define stwptype        "wptype"
     #define stwpx           "wpx"
     #define stwpy           "wpy"
     #define stwpz           "wpz"
-#define stLegs		   "Legs"
+
+#define stLegs		        "Legs"
     #define stlegId         "legId"
     #define stlegLength     "legLength"
     #define stlegStartx     "legStartx"
@@ -82,12 +94,14 @@ typedef struct Arc {
 	Float32 max_speed_up;	///< Max linear speed-up,	-1.f if unset
 }Arc;
 
-struct Node {
+typedef struct Node {
+    int id;
 	Float32 x, y;
 	Node_type nt;
 	UInt8 nb_a;
 	Arc arcs[MAX_NODE_ARCS];
-};
+    char * starcs;
+}Node;
 
 typedef struct Cartography{
 	Float32 def_max_speed;

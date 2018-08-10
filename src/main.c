@@ -1,10 +1,16 @@
-/**
- * @brief 
- * 
- * @file main.c
- * @author your name
- * @date 2018-07-25
- */
+/*! \mainpage My Personal Index Page
+*
+* \section intro_sec Introduction
+*
+* This is the introduction.
+*
+* \section install_sec Installation
+*
+* \subsection step1 Step 1: Opening the box
+*
+* etc...
+*/
+
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -12,7 +18,7 @@
 #include "../include/header.h"
 
 
-char *jsonFileName="map.json";
+char *jsonFileName="base.json";
 
 char *JSON_STRING = NULL;
 long length;
@@ -22,7 +28,11 @@ int flag=0;
 
 int main(int argc, char const *argv[])
 {
-    
+    /**
+     * @brief Converter
+     * quelque chose
+     */
+
     //jsonFileName = argv[1];
     
 	FILE *f = fopen(jsonFileName, "r");
@@ -49,12 +59,14 @@ int main(int argc, char const *argv[])
 	int Wpoccur	= objectOccurance(stwpid,JSON_STRING, IP);
 	int lgoccur = objectOccurance(stlegId,JSON_STRING, IP);
 	int ctoccur = objectOccurance(stCid,JSON_STRING, IP);
+    int ndoccur = objectOccurance(stNodeId,JSON_STRING, IP);
 	
 	int fstbrank = objectRank(stBeaconid,JSON_STRING, IP);
 	
 
 
 	struct Beacons B[Boccur];
+    struct Node nd[ndoccur];
 	struct Waypoints Wp[Wpoccur];
 	struct Legs lg[lgoccur];
 	struct Constraints ct[ctoccur];
@@ -74,6 +86,7 @@ int main(int argc, char const *argv[])
 		else if (jsoneq(JSON_STRING, &t[i], stWaypoints) == 0) {
 			for(int in=0;in<Wpoccur;in++){
 				Wp[in]=waypointsExt(JSON_STRING,IP,i,in);
+                printf("%f , %f\n",Wp[in].x,Wp[in].y);
 			}
 		}
 		else if (jsoneq(JSON_STRING, &t[i], stConstraints) == 0) {
@@ -81,6 +94,20 @@ int main(int argc, char const *argv[])
 				ct[in]=ConstrExt(JSON_STRING,IP,i,in);
 			}
 		}
+        //------------------------------------------------------------------------------------------
+        //------------------------------------------------------------------------------------------
+
+        else if (jsoneq(JSON_STRING, &t[i], stnodes) == 0) {
+			for(int in=0;in<=ndoccur;in++){
+				nd[in]=nodesExt(JSON_STRING,IP,i,in);
+                printf("%f , %f",nd[in].x,nd[in].y);
+			}
+		}
+        //------------------------------------------------------------------------------------------
+        //------------------------------------------------------------------------------------------
+
+
+        
 		else if (jsoneq(JSON_STRING, &t[i], stConstants) == 0) {
 			c = CstExt(JSON_STRING,IP,i);
 		}
@@ -93,19 +120,19 @@ int main(int argc, char const *argv[])
     /**
      * @brief test functions
      * 
-     */
+     
     int k = countNodes(lg, lgoccur);
     //printf(" %d\n",k);
     
     struct Node * N;
     N = convertLegs(lg,lgoccur);
-    printf("\nx\t\t y\t\t\t nbArc\n");
+    //printf("\nx\t\t y\t\t\t nbArc\n");
     //printf("x, y\n");
-    
+    /*
     for(int i =0;i<k;i++){
-        printf("%f\t %f\t\t %d \n",N[i].x,N[i].y,N[i].nb_a);
-        //printf("%f, %f\n",N[i].x,N[i].y);
-	}
+        //printf("%f\t %f\t\t %d \n",N[i].x,N[i].y,N[i].nb_a);
+        printf("%f, %f\n",N[i].x,N[i].y);
+	}*/
     
 
     /*

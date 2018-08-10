@@ -108,7 +108,7 @@ struct Node * existNode(float x,float y,Node n[],int madeNodes){
  * 
  * @TODO see again :arcs affectation, 
  * 		 and node.nb_a is not correctly incremented
- */
+ 
 struct Node * convertLegs(Legs legs[],int occurL){
 	int nNode=countNodes(legs,occurL);
 	int nleg=occurL;
@@ -127,8 +127,7 @@ struct Node * convertLegs(Legs legs[],int occurL){
 	 * 		: create arc to startnode
 	 *  no  : create node, ++madeNodes
 	 * 
-	 */
-	
+	 * 
 	for(int i=0;i<nleg;i++){
 		bool endCond = existNode(legs[i].endx,legs[i].endy,n,madeNodes)==NULL;
 		bool startCond = existNode(legs[i].startx,legs[i].starty,n,madeNodes)==NULL;
@@ -155,20 +154,47 @@ struct Node * convertLegs(Legs legs[],int occurL){
 			tempn = existNode(legs[i].startx,legs[i].starty,n,madeNodes);
 			n[madeNodes].x = legs[i].endx;
 			n[madeNodes].y = legs[i].endy;
+			
 			n[madeNodes].arcs[n[madeNodes].nb_a].dest = tempn;
 			n[madeNodes].nb_a++;
 			madeNodes++;
 		}
 		else{
-			//printf("\n=============================================\n");
+			//sprintf("\n=============================================\n");
 		}
 		
 	}
 	return n;
 }
 
+	 */
+	
 
+/**
+ * @brief 
+ * 
+ * @param legs 
+ * @param cst 
+ * @param nb_n 
+ * @return Cartography 
+Cartography carto(Legs legs[], Constants cst,int occurL){
+	Cartography c;
+	int nNode=countNodes(legs,occurL);
+	int nleg=occurL;
+	Node  N;
+	// CONSTANTS
+	c.def_max_speed = cst.vdef;
+	c.def_max_speed_up= cst.adef;
 
+	// Nodes
+	N = &convertLegs(legs,occurL);
+	c.nb_nodes = nNode;
+	c.nodes=N;
+
+	return c;
+}
+
+ */  
 
 /*
  * @brief read the contenant of a table of legs structure, and create nodes
@@ -229,26 +255,6 @@ struct Node * convertLegs(Legs legs[],int occurL){
 	return n;
 }
 */
-/**
- * @brief 
- * 
- * @param legs 
- * @param cst 
- * @param nb_n 
- * @return Cartography 
-Cartography carto(Legs legs, Constants cst,int nb_n){
-	Cartography c;
-	// CONSTANTS
-	c.def_max_speed = cst.vdef;
-	c.def_max_speed_up= cst.adef;
-
-	// Nodes
-	c.nb_nodes = nb_n;
-
-	return c;
-}
-
- */
 //=====================================================================================
 int jsoneq(const char *json, jsmntok_t *tok, const char *s) {
 	if (tok->type == JSMN_STRING && (int) strlen(s) == tok->end - tok->start &&
@@ -287,7 +293,59 @@ struct Constants CstExt(char *_JSON_STRING,initParser _IP,int _i){
 		free(tempchar);
 		return C;
   }
+//------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------
+struct Node nodesExt(char *_JSON_STRING,initParser _IP,int _i,int objRank){
+		struct Node nd;
+		char * tempchar;
+		char * namechar;
+		char * typechar;
+		
+		
+		jsmntok_t *_t = _IP.t;
+		//char * jsonobjectname=stBeaconid";
+		
+		int ndrank = objectRank(stConstraints,_JSON_STRING, _IP)-1;
+		int tab=nextObjectTab(stNodeId,_JSON_STRING, _IP);
 
+		int idrank=objectRank(stNodeId,_JSON_STRING, _IP)-ndrank+objRank*tab;
+		int nbarank=objectRank(stCvalue,_JSON_STRING, _IP)-ndrank+objRank*tab;
+		int typerank=0;
+		int xrank=objectRank(stnodx,_JSON_STRING, _IP)-ndrank+objRank*tab;
+		int yrank=objectRank(stnody,_JSON_STRING, _IP)-ndrank+objRank*tab;
+		int arcrank=objectRank(stnodeArcs,_JSON_STRING, _IP)-ndrank+objRank*tab;
+		
+		//---
+		tempchar = malloc(sizeof(int));
+		strncpy(tempchar,  _JSON_STRING + _t[_i+ idrank].start, sizeof(int));
+		nd.id=atoi(tempchar);
+		free(tempchar);
+		//---
+		//typechar = malloc(14*sizeof(char));
+		//strncpy(typechar,  _JSON_STRING + _t[_i+ typerank].start, 14*sizeof(char));
+		nd.nt=0;
+		//free(typechar);
+		//---
+		
+
+		tempchar = malloc(sizeof(double));
+		strncpy(tempchar,  _JSON_STRING + _t[_i+ xrank].start, sizeof(double));
+		nd.x=strtof(tempchar,NULL);
+		free(tempchar);
+
+		tempchar = malloc(sizeof(double));
+		strncpy(tempchar,  _JSON_STRING + _t[_i+ yrank].start, sizeof(double));
+		nd.y=strtof(tempchar,NULL);
+		free(tempchar);
+
+		
+		namechar = malloc(5*sizeof(char));
+		strncpy(namechar,  _JSON_STRING + _t[_i+ arcrank].start, 15*sizeof(char));
+		nd.starcs=namechar;
+		return nd;
+  }
+  //------------------------------------------------------------------------------------------
+  //------------------------------------------------------------------------------------------
 struct Constraints ConstrExt(char *_JSON_STRING,initParser _IP,int _i,int objRank){
 		struct Constraints ct;
 		char * tempchar;
