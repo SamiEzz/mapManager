@@ -108,6 +108,9 @@ int main(int argc, char const *argv[])
 				nd[in]=nodesExt(JSON_STRING,IP,i,in);
                 
                 //printf("%f , %f, %d\n",nd[in].x,nd[in].y,nd[in].id);
+                /*
+                TODO: add speed limits to arcs in nodes
+                */
                 if(in==ndoccur){
                     for(int k=0;k<ndoccur;k++){
                         for(int j=0;j<nd[k].nb_a;j++){
