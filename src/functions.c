@@ -368,6 +368,8 @@ struct Node nodesExt(char *_JSON_STRING,initParser _IP,int _i,int objRank){
 		strncpy(tempchar,  _JSON_STRING + _t[_i+ arc4rank].start, sizeof(int));
 		nd.ids[3]=atoi(tempchar);
 		free(tempchar);
+
+		
 		
 		//printf("%d , %d , %d , %d\n",nd.ids[0],nd.ids[1],nd.ids[2],nd.ids[3]);
 		

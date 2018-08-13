@@ -9,7 +9,7 @@
 #define TWIRTEE_H_
 
 #include <stdint.h>
-#include "platform_types.h"
+#include "Platform_Types.h"
 
 
 #define false			0
@@ -46,62 +46,12 @@ typedef float64			Double64;
 
 /****{ Included in model }****************************************************/
 
-typedef struct PWM {
-	Int16 regulation_right;
-	Int16 regulation_left;
-} PWM;
-
 typedef struct Position {
 	Float32 x;
 	Float32 y;
 	Float32 theta;
 } Position;
 
-//typedef struct Odometer {
-//	Int64 pulse_sum_left;
-//	Int64 pulse_sum_right;
-//	UInt32 time_measure;
-//} Odometer;
-
-typedef struct T_loc {
-	Double64 x;
-	Double64 y;
-	Bool8 val;
-} T_loc;
-
-// Compass struct read by POW
-typedef struct Magnetometer {
-	Float32 x;
-	Float32 y;
-} Magnetometer;
-
-// Compass struct sent by POW to COM
-typedef struct T_head {
-	Double64 theta;
-	Bool8 val;
-} T_head;
-
-typedef struct T_odo {
-	double l_speed;
-	double r_speed;
-	Float32 quad_delta_time_left;
-	Float32 quad_delta_time_right;
-	Int32 quad_delta_count_left;
-	Int32 quad_delta_count_right;
-	Bool8 val;
-} T_odo;
-
-typedef struct Modes_Req_Struct {
-	Bool8 Ctrl_Mode;
-	Bool8 Rem_Arm_Mode;
-	Bool8 Auto_Arm_Mode;
-} Modes_Req_Struct;
-
-typedef struct Speed {
-	Float32 v; ///< linear speed
-	Float32 w; ///< angular speed (omega)
-	Bool8 val;
-} Speed;
 
 /****{ Not in AADL model }****************************************************/
 

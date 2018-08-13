@@ -5,9 +5,11 @@
  *  Modified on: Jun 05, 2018
  *	  Authors: mf.sassi, gph
  */
+#include "../include/header.h"
+#include "../include/dijkstra.h"
+#include "../include/com.h"
 
-#include "com.h"
-#include "dijkstra.h"
+
 
 
 /* A utility function to find the vertex with minimum distance value, from
@@ -94,6 +96,7 @@ void dijkstra(Cartography *graph, int src, int dest, Path *trajectory)
 			dist_uv = POINTDIST(graph->nodes[u], *(graph->nodes[u].arcs[v].dest)) / get_speed(&(graph->nodes[u].arcs[v]), graph);
 			/* the corresponding index in graph->nodes table is retrieved using pointer arithmetic */
 			v_index = (int) (graph->nodes[u].arcs[v].dest - graph->nodes);
+			v_index = graph->nodes[u].ids[v];
 			/* Update dist[v] only if is not in sptSet
 			 * and total weight of path from src to v through u
 			 * is smaller than current value of dist[v] */

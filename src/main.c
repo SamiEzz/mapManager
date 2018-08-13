@@ -16,6 +16,8 @@
 #include <stdio.h>
 #include "../include/jsmn.h"
 #include "../include/header.h"
+#include "../include/dijkstra.h"
+
 
 
 char *jsonFileName="base.json";
@@ -116,6 +118,8 @@ int main(int argc, char const *argv[])
                         for(int j=0;j<nd[k].nb_a;j++){
                             Arc temparc;
                             temparc.dest = &nd[nd[k].ids[j]];
+                            temparc.max_speed=-1;
+                            temparc.max_speed_up=-1;
                             nd[k].arcs[j]=temparc;
                         }
                     }
@@ -136,7 +140,24 @@ int main(int argc, char const *argv[])
 		
 		
 	}
+    Cartography graphtest;
+    Path trajectorytest;
+    int src=0;
+    int dest=12;
 
+    graphtest.def_max_speed=10;
+    graphtest.def_max_speed_up=10;
+    graphtest.nb_nodes=ndoccur;
+    for(int k=0;k<ndoccur;k++){
+        graphtest.nb_arcs+=graphtest.nodes[k].nb_a;
+    }
+    for(int i=0;i<ndoccur;i++){
+        graphtest.nodes[i]=nd[i];
+    }
+    dijkstra(&graphtest, src, dest, &trajectorytest);
+    for(int i=0;i<trajectorytest.size;i++){
+        printf("%d\n",trajectorytest.dest[i]->id);
+    }
     /**
      * @brief test functions
      * 
@@ -217,5 +238,4 @@ int main(int argc, char const *argv[])
     system("./bin/api.exe");
     */
 	return EXIT_SUCCESS;
-
 }

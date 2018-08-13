@@ -8,10 +8,10 @@
 #ifndef __COM_H_
 #define __COM_H_
 #include <stdio.h>
-#include "twirtee.h"
+#include "header.h"
 
 #ifndef STANDALONE
-#include <types.h>
+#include <sys/types.h>
 #endif
 
 #define WHEEL_TEETH_NUMBER	2752.f	/**< -- called in float operations, Localization + Rec */

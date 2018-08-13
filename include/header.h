@@ -7,21 +7,10 @@
 #include <stddef.h>
 #include <stdbool.h>
 #include <stdint.h>
+#include <math.h>
+
 
 #include "jsmn.h"
-
-
-
-typedef int8_t			Bool8;
-typedef int32_t			Bool32;
-typedef uint8_t			UInt8;
-typedef unsigned short	UInt16;
-typedef uint32_t 		UInt32;
-typedef signed short	Int16;
-typedef int32_t			Int32;
-typedef signed long		Int64;
-typedef float 			Float32;
-typedef double 			Double64;
 
 #define CARTO_NODE_NBR	653
 #define MAX_NODE_ARCS 4
@@ -78,6 +67,55 @@ typedef double 			Double64;
     #define stlegEndz       "legEndz"
 
 
+/****{ start(from twirtee.h)}****************************************************/
+#define false			0
+#define true			1
+#define INVALID_DATA	0
+#define VALID_DATA		1
+
+#define GPS_NOISE_SCALE			0.0	///< default scale is 1.0
+#define COMPASS_NOISE_SCALE		0.0	///< default scale is 1.0
+#define ODOMETRY_NOISE_SCALE	0.0	///< default scale is 1.0
+
+#define MAX_CARTO_NODES	1000
+#define MAX_NODE_ARCS	4
+
+#define PI 3.1415927f
+#ifndef M_PI
+#define M_PI 3.14159265358979323846264338328
+#endif
+#define POINTDIST(A,B)  (float)(sqrt((((A).x-(B).x)*((A).x-(B).x)) + (((A).y-(B).y)*((A).y-(B).y))))
+#define ABS(A)			((A) >= 0 ? (A) : -(A))
+#define SQR(x)			((x)*(x))
+#define _MAT_ (double (*)[])
+/*
+typedef sint8			Bool8;
+typedef sint32			Bool32;
+typedef uint8			UInt8;
+typedef uint16			UInt16;
+typedef uint32	 		UInt32;
+typedef sint16			Int16;
+typedef sint32			Int32;
+//typedef sint64			Int64;
+typedef float32			Float32;
+typedef float64			Double64;
+*/
+
+
+/****{ end(from twirtee.h) }****************************************************/
+
+
+typedef int8_t			Bool8;
+typedef int32_t			Bool32;
+typedef uint8_t			UInt8;
+typedef unsigned short	UInt16;
+typedef uint32_t 		UInt32;
+typedef signed short	Int16;
+typedef int32_t			Int32;
+typedef signed long		Int64;
+typedef float 			Float32;
+typedef double 			Double64;
+
 
 
 typedef enum Node_type {
@@ -113,14 +151,14 @@ typedef struct Cartography{
 	Float32 def_max_speed_up;
 	Int16 nb_arcs;
 	Int16 nb_nodes;
-	Node nodes[];
+	Node nodes[MAX_CARTO_NODES];
 } Cartography;
 
 typedef struct Path {
-	Node dest[CARTO_NODE_NBR];
-	UInt16 size;
 	Float32 def_max_speed;
 	Float32 def_max_speed_up;
+	UInt16 size;
+	Node *dest[MAX_CARTO_NODES];
 } Path;
 
 typedef struct Mission {

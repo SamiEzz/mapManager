@@ -16,9 +16,13 @@
                 "src/main.c",
                 "src/jsmn.c",
                 "src/functions.c",
+                "src/dijkstra.c",
+                
                 
                 "-o",
-                "bin/api.exe"
+                "bin/api.exe",
+                "-lm"
+
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
