@@ -37,7 +37,12 @@ typedef double 			Double64;
     #define stnodx		    "nodx"
     #define stnody	        "nody"
     #define stnodeNbA	    "nodeNbA"
-    #define stnodeArcs	    "nodeArcs"
+    #define stnodeArc1	    "nodeArc1"
+    #define stnodeArc2	    "nodeArc2"
+    #define stnodeArc3	    "nodeArc3"
+    #define stnodeArc4	    "nodeArc4"
+    
+
     
     
 #define stConstants	        "Constants"
@@ -100,7 +105,7 @@ typedef struct Node {
 	Node_type nt;
 	UInt8 nb_a;
 	Arc arcs[MAX_NODE_ARCS];
-    char * starcs;
+    int ids[MAX_NODE_ARCS];
 }Node;
 
 typedef struct Cartography{
@@ -184,7 +189,7 @@ struct Waypoints waypointsExt(char *_JSON_STRING,initParser _IP,int _i,int objRa
 struct Legs legsExt(char *_JSON_STRING,initParser _IP,int _i,int objRank);
 struct Constraints ConstrExt(char *_JSON_STRING,initParser _IP,int _i,int objRank);
 struct Constants CstExt(char *_JSON_STRING,initParser _IP,int _i);
-struct Node * convertLegs(Legs legs[],int occurL);
+//struct Node * convertLegs(Legs legs[],int occurL);
 struct initParser getJsonToken(int expectNvalues,char * JSON_STRING);
 
 

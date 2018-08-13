@@ -37,1826 +37,1800 @@
             "nodx": 1835.559,
             "nody": -199.696,
             "nodeNbA": 3,
-            "nodeArcs": [
-                1,
-                46,
-                2
-            ]
+            "nodeArc1": 1,
+            "nodeArc2": 46,
+            "nodeArc3": 2,
+            "nodeArc4": -1
         },
         {
             "nodId": 1,
             "nodx": 1915.577,
             "nody": -119.566,
             "nodeNbA": 3,
-            "nodeArcs": [
-                0,
-                2,
-                117
-            ]
+            "nodeArc1": 0,
+            "nodeArc2": 2,
+            "nodeArc3": 117,
+            "nodeArc4": -1
         },
         {
             "nodId": 2,
             "nodx": 1995.581,
             "nody": -199.7,
             "nodeNbA": 3,
-            "nodeArcs": [
-                1,
-                3,
-                0
-            ]
+            "nodeArc1": 1,
+            "nodeArc2": 3,
+            "nodeArc3": 0,
+            "nodeArc4": -1
         },
         {
             "nodId": 3,
             "nodx": 2422.437,
             "nody": -199.696,
             "nodeNbA": 3,
-            "nodeArcs": [
-                4,
-                2,
-                5
-            ]
+            "nodeArc1": 4,
+            "nodeArc2": 2,
+            "nodeArc3": 5,
+            "nodeArc4": -1
         },
         {
             "nodId": 4,
             "nodx": 2502.459,
             "nody": -119.696,
             "nodeNbA": 3,
-            "nodeArcs": [
-                3,
-                5,
-                126
-            ]
+            "nodeArc1": 3,
+            "nodeArc2": 5,
+            "nodeArc3": 126,
+            "nodeArc4": -1
         },
         {
             "nodId": 5,
             "nodx": 2582.437,
             "nody": -199.696,
             "nodeNbA": 3,
-            "nodeArcs": [
-                4,
-                3,
-                8
-            ]
+            "nodeArc1": 4,
+            "nodeArc2": 3,
+            "nodeArc3": 8,
+            "nodeArc4": -1
         },
         {
             "nodId": 6,
             "nodx": 2802.223,
             "nody": -279.74,
             "nodeNbA": 2,
-            "nodeArcs": [
-                7,
-                76
-            ]
+            "nodeArc1": 7,
+            "nodeArc2": 76,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 7,
             "nodx": 2722.201,
             "nody": -199.736,
             "nodeNbA": 2,
-            "nodeArcs": [
-                6,
-                11
-            ]
+            "nodeArc1": 6,
+            "nodeArc2": 11,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 8,
             "nodx": 2607.925,
             "nody": -199.734,
             "nodeNbA": 3,
-            "nodeArcs": [
-                9,
-                5,
-                11
-            ]
+            "nodeArc1": 9,
+            "nodeArc2": 5,
+            "nodeArc3": 11,
+            "nodeArc4": -1
         },
         {
             "nodId": 9,
             "nodx": 2626.264,
             "nody": -187.66,
             "nodeNbA": 2,
-            "nodeArcs": [
-                8,
-                10
-            ]
+            "nodeArc1": 8,
+            "nodeArc2": 10,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 10,
             "nodx": 2657.238,
             "nody": -115.945,
             "nodeNbA": 3,
-            "nodeArcs": [
-                11,
-                9,
-                109
-            ]
+            "nodeArc1": 11,
+            "nodeArc2": 9,
+            "nodeArc3": 109,
+            "nodeArc4": -1
         },
         {
             "nodId": 11,
             "nodx": 2712.343,
             "nody": -199.739,
             "nodeNbA": 3,
-            "nodeArcs": [
-                10,
-                8,
-                7
-            ]
+            "nodeArc1": 10,
+            "nodeArc2": 8,
+            "nodeArc3": 7,
+            "nodeArc4": -1
         },
         {
             "nodId": 12,
             "nodx": 406.42,
             "nody": -159.79,
             "nodeNbA": 2,
-            "nodeArcs": [
-                13,
-                34
-            ]
+            "nodeArc1": 13,
+            "nodeArc2": 34,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 13,
             "nodx": 475.582,
             "nody": -199.626,
             "nodeNbA": 2,
-            "nodeArcs": [
-                12,
-                18
-            ]
+            "nodeArc1": 12,
+            "nodeArc2": 18,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 14,
             "nodx": 303.099,
             "nody": 118.231,
             "nodeNbA": 2,
-            "nodeArcs": [
-                15,
-                35
-            ]
+            "nodeArc1": 15,
+            "nodeArc2": 35,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 15,
             "nodx": 279.582,
             "nody": 59.805,
             "nodeNbA": 2,
-            "nodeArcs": [
-                14,
-                34
-            ]
+            "nodeArc1": 14,
+            "nodeArc2": 34,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 16,
             "nodx": 485.6,
             "nody": 162.912,
             "nodeNbA": 2,
-            "nodeArcs": [
-                17,
-                36
-            ]
+            "nodeArc1": 17,
+            "nodeArc2": 36,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 17,
             "nodx": 468.23,
             "nody": 165.985,
             "nodeNbA": 3,
-            "nodeArcs": [
-                16,
-                35,
-                38
-            ]
+            "nodeArc1": 16,
+            "nodeArc2": 35,
+            "nodeArc3": 38,
+            "nodeArc4": -1
         },
         {
             "nodId": 18,
             "nodx": 554.826,
             "nody": -199.633,
             "nodeNbA": 3,
-            "nodeArcs": [
-                19,
-                13,
-                21
-            ]
+            "nodeArc1": 19,
+            "nodeArc2": 13,
+            "nodeArc3": 21,
+            "nodeArc4": -1
         },
         {
             "nodId": 19,
             "nodx": 625.787,
             "nody": -156.574,
             "nodeNbA": 2,
-            "nodeArcs": [
-                18,
-                20
-            ]
+            "nodeArc1": 18,
+            "nodeArc2": 20,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 20,
             "nodx": 649.024,
             "nody": -111.936,
             "nodeNbA": 3,
-            "nodeArcs": [
-                21,
-                40,
-                19
-            ]
+            "nodeArc1": 21,
+            "nodeArc2": 40,
+            "nodeArc3": 19,
+            "nodeArc4": -1
         },
         {
             "nodId": 21,
             "nodx": 702.222,
             "nody": -199.637,
             "nodeNbA": 3,
-            "nodeArcs": [
-                20,
-                18,
-                44
-            ]
+            "nodeArc1": 20,
+            "nodeArc2": 18,
+            "nodeArc3": 44,
+            "nodeArc4": -1
         },
         {
             "nodId": 22,
             "nodx": 763.904,
             "nody": -40.808,
             "nodeNbA": 3,
-            "nodeArcs": [
-                23,
-                27,
-                41
-            ]
+            "nodeArc1": 23,
+            "nodeArc2": 27,
+            "nodeArc3": 41,
+            "nodeArc4": -1
         },
         {
             "nodId": 23,
             "nodx": 675.245,
             "nody": -61.519,
             "nodeNbA": 3,
-            "nodeArcs": [
-                22,
-                28,
-                40
-            ]
+            "nodeArc1": 22,
+            "nodeArc2": 28,
+            "nodeArc3": 40,
+            "nodeArc4": -1
         },
         {
             "nodId": 24,
             "nodx": 651.145,
             "nody": 41.74,
             "nodeNbA": 3,
-            "nodeArcs": [
-                25,
-                36,
-                29
-            ]
+            "nodeArc1": 25,
+            "nodeArc2": 36,
+            "nodeArc3": 29,
+            "nodeArc4": -1
         },
         {
             "nodId": 25,
             "nodx": 739.804,
             "nody": 62.451,
             "nodeNbA": 3,
-            "nodeArcs": [
-                24,
-                30,
-                26
-            ]
+            "nodeArc1": 24,
+            "nodeArc2": 30,
+            "nodeArc3": 26,
+            "nodeArc4": -1
         },
         {
             "nodId": 26,
             "nodx": 723.371,
             "nody": 30.931,
             "nodeNbA": 3,
-            "nodeArcs": [
-                27,
-                25,
-                28
-            ]
+            "nodeArc1": 27,
+            "nodeArc2": 25,
+            "nodeArc3": 28,
+            "nodeArc4": -1
         },
         {
             "nodId": 27,
             "nodx": 735.226,
             "nody": -19.817,
             "nodeNbA": 3,
-            "nodeArcs": [
-                26,
-                22,
-                29
-            ]
+            "nodeArc1": 26,
+            "nodeArc2": 22,
+            "nodeArc3": 29,
+            "nodeArc4": -1
         },
         {
             "nodId": 28,
             "nodx": 691.655,
             "nody": -29.995,
             "nodeNbA": 3,
-            "nodeArcs": [
-                29,
-                23,
-                26
-            ]
+            "nodeArc1": 29,
+            "nodeArc2": 23,
+            "nodeArc3": 26,
+            "nodeArc4": -1
         },
         {
             "nodId": 29,
             "nodx": 679.801,
             "nody": 20.752,
             "nodeNbA": 3,
-            "nodeArcs": [
-                28,
-                24,
-                27
-            ]
+            "nodeArc1": 28,
+            "nodeArc2": 24,
+            "nodeArc3": 27,
+            "nodeArc4": -1
         },
         {
             "nodId": 30,
             "nodx": 764.007,
             "nody": 108.944,
             "nodeNbA": 3,
-            "nodeArcs": [
-                31,
-                25,
-                124
-            ]
+            "nodeArc1": 31,
+            "nodeArc2": 25,
+            "nodeArc3": 124,
+            "nodeArc4": -1
         },
         {
             "nodId": 31,
             "nodx": 738.993,
             "nody": 166.018,
             "nodeNbA": 3,
-            "nodeArcs": [
-                30,
-                39,
-                163
-            ]
+            "nodeArc1": 30,
+            "nodeArc2": 39,
+            "nodeArc3": 163,
+            "nodeArc4": -1
         },
         {
             "nodId": 32,
             "nodx": 621.074,
             "nody": 198.06,
             "nodeNbA": 2,
-            "nodeArcs": [
-                33,
-                39
-            ]
+            "nodeArc1": 33,
+            "nodeArc2": 39,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 33,
             "nodx": 577.867,
             "nody": 197.709,
             "nodeNbA": 2,
-            "nodeArcs": [
-                32,
-                37
-            ]
+            "nodeArc1": 32,
+            "nodeArc2": 37,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 34,
             "nodx": 287.087,
             "nody": 46.874,
             "nodeNbA": 2,
-            "nodeArcs": [
-                12,
-                15
-            ]
+            "nodeArc1": 12,
+            "nodeArc2": 15,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 35,
             "nodx": 454.61,
             "nody": 162.046,
             "nodeNbA": 2,
-            "nodeArcs": [
-                14,
-                17
-            ]
+            "nodeArc1": 14,
+            "nodeArc2": 17,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 36,
             "nodx": 510.515,
             "nody": 144.675,
             "nodeNbA": 3,
-            "nodeArcs": [
-                16,
-                24,
-                38
-            ]
+            "nodeArc1": 16,
+            "nodeArc2": 24,
+            "nodeArc3": 38,
+            "nodeArc4": -1
         },
         {
             "nodId": 37,
             "nodx": 529.52,
             "nody": 183.714,
             "nodeNbA": 2,
-            "nodeArcs": [
-                33,
-                38
-            ]
+            "nodeArc1": 33,
+            "nodeArc2": 38,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 38,
             "nodx": 516.749,
             "nody": 180.03,
             "nodeNbA": 3,
-            "nodeArcs": [
-                17,
-                37,
-                36
-            ]
+            "nodeArc1": 17,
+            "nodeArc2": 37,
+            "nodeArc3": 36,
+            "nodeArc4": -1
         },
         {
             "nodId": 39,
             "nodx": 710.459,
             "nody": 173.777,
             "nodeNbA": 2,
-            "nodeArcs": [
-                32,
-                31
-            ]
+            "nodeArc1": 32,
+            "nodeArc2": 31,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 40,
             "nodx": 661.832,
             "nody": -87.338,
             "nodeNbA": 2,
-            "nodeArcs": [
-                23,
-                20
-            ]
+            "nodeArc1": 23,
+            "nodeArc2": 20,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 41,
             "nodx": 779.452,
             "nody": -52.176,
             "nodeNbA": 2,
-            "nodeArcs": [
-                22,
-                42
-            ]
+            "nodeArc1": 22,
+            "nodeArc2": 42,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 42,
             "nodx": 882.16,
             "nody": -127.367,
             "nodeNbA": 3,
-            "nodeArcs": [
-                41,
-                43,
-                45
-            ]
+            "nodeArc1": 41,
+            "nodeArc2": 43,
+            "nodeArc3": 45,
+            "nodeArc4": -1
         },
         {
             "nodId": 43,
             "nodx": 959.814,
             "nody": -184.206,
             "nodeNbA": 2,
-            "nodeArcs": [
-                42,
-                46
-            ]
+            "nodeArc1": 42,
+            "nodeArc2": 46,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 44,
             "nodx": 807.669,
             "nody": -199.646,
             "nodeNbA": 2,
-            "nodeArcs": [
-                21,
-                45
-            ]
+            "nodeArc1": 21,
+            "nodeArc2": 45,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 45,
             "nodx": 858.535,
             "nody": -199.644,
             "nodeNbA": 3,
-            "nodeArcs": [
-                46,
-                44,
-                42
-            ]
+            "nodeArc1": 46,
+            "nodeArc2": 44,
+            "nodeArc3": 42,
+            "nodeArc4": -1
         },
         {
             "nodId": 46,
             "nodx": 1007.065,
             "nody": -199.652,
             "nodeNbA": 3,
-            "nodeArcs": [
-                45,
-                43,
-                0
-            ]
+            "nodeArc1": 45,
+            "nodeArc2": 43,
+            "nodeArc3": 0,
+            "nodeArc4": -1
         },
         {
             "nodId": 47,
             "nodx": 2782.063,
             "nody": -385.477,
             "nodeNbA": 3,
-            "nodeArcs": [
-                48,
-                53,
-                50
-            ]
+            "nodeArc1": 48,
+            "nodeArc2": 53,
+            "nodeArc3": 50,
+            "nodeArc4": -1
         },
         {
             "nodId": 48,
             "nodx": 2802.223,
             "nody": -339.479,
             "nodeNbA": 2,
-            "nodeArcs": [
-                47,
-                49
-            ]
+            "nodeArc1": 47,
+            "nodeArc2": 49,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 49,
             "nodx": 2832.154,
             "nody": -356.84,
             "nodeNbA": 3,
-            "nodeArcs": [
-                48,
-                50,
-                94
-            ]
+            "nodeArc1": 48,
+            "nodeArc2": 50,
+            "nodeArc3": 94,
+            "nodeArc4": -1
         },
         {
             "nodId": 50,
             "nodx": 2822.362,
             "nody": -362.441,
             "nodeNbA": 3,
-            "nodeArcs": [
-                51,
-                47,
-                49
-            ]
+            "nodeArc1": 51,
+            "nodeArc2": 47,
+            "nodeArc3": 49,
+            "nodeArc4": -1
         },
         {
             "nodId": 51,
             "nodx": 2802.201,
             "nody": -397.101,
             "nodeNbA": 1,
-            "nodeArcs": [
-                50
-            ]
+            "nodeArc1": 50,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 52,
             "nodx": 2802.223,
             "nody": -408.443,
             "nodeNbA": 3,
-            "nodeArcs": [
-                53,
-                162,
-                172
-            ]
+            "nodeArc1": 53,
+            "nodeArc2": 162,
+            "nodeArc3": 172,
+            "nodeArc4": -1
         },
         {
             "nodId": 53,
             "nodx": 2772.27,
             "nody": -391.079,
             "nodeNbA": 2,
-            "nodeArcs": [
-                52,
-                47
-            ]
+            "nodeArc1": 52,
+            "nodeArc2": 47,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 54,
             "nodx": 2600.175,
             "nody": -489.541,
             "nodeNbA": 2,
-            "nodeArcs": [
-                55,
-                58
-            ]
+            "nodeArc1": 55,
+            "nodeArc2": 58,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 55,
             "nodx": 2568.909,
             "nody": -522.097,
             "nodeNbA": 2,
-            "nodeArcs": [
-                54,
-                167
-            ]
+            "nodeArc1": 54,
+            "nodeArc2": 167,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 56,
             "nodx": 2502.245,
             "nody": -599.448,
             "nodeNbA": 2,
-            "nodeArcs": [
-                57,
-                62
-            ]
+            "nodeArc1": 57,
+            "nodeArc2": 62,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 57,
             "nodx": 2549.178,
             "nody": -560.025,
             "nodeNbA": 2,
-            "nodeArcs": [
-                56,
-                59
-            ]
+            "nodeArc1": 56,
+            "nodeArc2": 59,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 58,
             "nodx": 2669.733,
             "nody": -449.752,
             "nodeNbA": 1,
-            "nodeArcs": [
-                54
-            ]
+            "nodeArc1": 54,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 59,
             "nodx": 2558.052,
             "nody": -543.001,
             "nodeNbA": 2,
-            "nodeArcs": [
-                57,
-                166
-            ]
+            "nodeArc1": 57,
+            "nodeArc2": 166,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 60,
             "nodx": 2400.783,
             "nody": -631.396,
             "nodeNbA": 2,
-            "nodeArcs": [
-                61,
-                62
-            ]
+            "nodeArc1": 61,
+            "nodeArc2": 62,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 61,
             "nodx": 2389.762,
             "nody": -660.96,
             "nodeNbA": 2,
-            "nodeArcs": [
-                60,
-                68
-            ]
+            "nodeArc1": 60,
+            "nodeArc2": 68,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 62,
             "nodx": 2414.574,
             "nody": -627.063,
             "nodeNbA": 2,
-            "nodeArcs": [
-                60,
-                56
-            ]
+            "nodeArc1": 60,
+            "nodeArc2": 56,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 63,
             "nodx": 2464.752,
             "nody": -782.69,
             "nodeNbA": 2,
-            "nodeArcs": [
-                64,
-                68
-            ]
+            "nodeArc1": 64,
+            "nodeArc2": 68,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 64,
             "nodx": 2508.623,
             "nody": -800.492,
             "nodeNbA": 2,
-            "nodeArcs": [
-                63,
-                67
-            ]
+            "nodeArc1": 63,
+            "nodeArc2": 67,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 65,
             "nodx": 2704.78,
             "nody": -758.925,
             "nodeNbA": 3,
-            "nodeArcs": [
-                66,
-                88,
-                71
-            ]
+            "nodeArc1": 66,
+            "nodeArc2": 88,
+            "nodeArc3": 71,
+            "nodeArc4": -1
         },
         {
             "nodId": 66,
             "nodx": 2669.423,
             "nody": -759.807,
             "nodeNbA": 2,
-            "nodeArcs": [
-                65,
-                169
-            ]
+            "nodeArc1": 65,
+            "nodeArc2": 169,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 67,
             "nodx": 2575.197,
             "nody": -783.648,
             "nodeNbA": 1,
-            "nodeArcs": [
-                64
-            ]
+            "nodeArc1": 64,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 68,
             "nodx": 2432.379,
             "nody": -730.115,
             "nodeNbA": 2,
-            "nodeArcs": [
-                61,
-                63
-            ]
+            "nodeArc1": 61,
+            "nodeArc2": 63,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 69,
             "nodx": 2947.354,
             "nody": -807.59,
             "nodeNbA": 2,
-            "nodeArcs": [
-                70,
-                90
-            ]
+            "nodeArc1": 70,
+            "nodeArc2": 90,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 70,
             "nodx": 3013.51,
             "nody": -667.055,
             "nodeNbA": 2,
-            "nodeArcs": [
-                69,
-                149
-            ]
+            "nodeArc1": 69,
+            "nodeArc2": 149,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 71,
             "nodx": 2754.333,
             "nody": -768.867,
             "nodeNbA": 3,
-            "nodeArcs": [
-                72,
-                65,
-                89
-            ]
+            "nodeArc1": 72,
+            "nodeArc2": 65,
+            "nodeArc3": 89,
+            "nodeArc4": -1
         },
         {
             "nodId": 72,
             "nodx": 2802.223,
             "nody": -729.652,
             "nodeNbA": 3,
-            "nodeArcs": [
-                71,
-                75,
-                73
-            ]
+            "nodeArc1": 71,
+            "nodeArc2": 75,
+            "nodeArc3": 73,
+            "nodeArc4": -1
         },
         {
             "nodId": 73,
             "nodx": 2802.223,
             "nody": -745.702,
             "nodeNbA": 2,
-            "nodeArcs": [
-                74,
-                72
-            ]
+            "nodeArc1": 74,
+            "nodeArc2": 72,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 74,
             "nodx": 2834.333,
             "nody": -784.916,
             "nodeNbA": 1,
-            "nodeArcs": [
-                73
-            ]
+            "nodeArc1": 73,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 75,
             "nodx": 2802.228,
             "nody": -649.9,
             "nodeNbA": 2,
-            "nodeArcs": [
-                72,
-                171
-            ]
+            "nodeArc1": 72,
+            "nodeArc2": 171,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 76,
             "nodx": 2802.228,
             "nody": -339.479,
             "nodeNbA": 1,
-            "nodeArcs": [
-                6
-            ]
+            "nodeArc1": 6,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 77,
             "nodx": 2735.784,
             "nody": -441.428,
             "nodeNbA": 2,
-            "nodeArcs": [
-                78,
-                79
-            ]
+            "nodeArc1": 78,
+            "nodeArc2": 79,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 78,
             "nodx": 2690.674,
             "nody": -437.753,
             "nodeNbA": 3,
-            "nodeArcs": [
-                77,
-                165,
-                170
-            ]
+            "nodeArc1": 77,
+            "nodeArc2": 165,
+            "nodeArc3": 170,
+            "nodeArc4": -1
         },
         {
             "nodId": 79,
             "nodx": 2831.759,
             "nody": -519.408,
             "nodeNbA": 3,
-            "nodeArcs": [
-                77,
-                80,
-                81
-            ]
+            "nodeArc1": 77,
+            "nodeArc2": 80,
+            "nodeArc3": 81,
+            "nodeArc4": -1
         },
         {
             "nodId": 80,
             "nodx": 2895.789,
             "nody": -571.409,
             "nodeNbA": 2,
-            "nodeArcs": [
-                79,
-                149
-            ]
+            "nodeArc1": 79,
+            "nodeArc2": 149,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 81,
             "nodx": 2802.202,
             "nody": -457.33,
             "nodeNbA": 1,
-            "nodeArcs": [
-                79
-            ]
+            "nodeArc1": 79,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 82,
             "nodx": 2591.247,
             "nody": -606.423,
             "nodeNbA": 2,
-            "nodeArcs": [
-                83,
-                84
-            ]
+            "nodeArc1": 83,
+            "nodeArc2": 84,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 83,
             "nodx": 2580.688,
             "nody": -579.501,
             "nodeNbA": 2,
-            "nodeArcs": [
-                82,
-                96
-            ]
+            "nodeArc1": 82,
+            "nodeArc2": 96,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 84,
             "nodx": 2600.526,
             "nody": -654.188,
             "nodeNbA": 1,
-            "nodeArcs": [
-                82
-            ]
+            "nodeArc1": 82,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 85,
             "nodx": 2594.312,
             "nody": -778.802,
             "nodeNbA": 1,
-            "nodeArcs": [
-                86
-            ]
+            "nodeArc1": 86,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 86,
             "nodx": 2609.366,
             "nody": -757.846,
             "nodeNbA": 2,
-            "nodeArcs": [
-                85,
-                87
-            ]
+            "nodeArc1": 85,
+            "nodeArc2": 87,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 87,
             "nodx": 2605.545,
             "nody": -709.363,
             "nodeNbA": 3,
-            "nodeArcs": [
-                88,
-                91,
-                86
-            ]
+            "nodeArc1": 88,
+            "nodeArc2": 91,
+            "nodeArc3": 86,
+            "nodeArc4": -1
         },
         {
             "nodId": 88,
             "nodx": 2637.531,
             "nody": -745.434,
             "nodeNbA": 2,
-            "nodeArcs": [
-                87,
-                65
-            ]
+            "nodeArc1": 87,
+            "nodeArc2": 65,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 89,
             "nodx": 2834.355,
             "nody": -784.92,
             "nodeNbA": 2,
-            "nodeArcs": [
-                90,
-                71
-            ]
+            "nodeArc1": 90,
+            "nodeArc2": 71,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 90,
             "nodx": 2862.395,
             "nody": -790.542,
             "nodeNbA": 2,
-            "nodeArcs": [
-                89,
-                69
-            ]
+            "nodeArc1": 89,
+            "nodeArc2": 69,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 91,
             "nodx": 2602.083,
             "nody": -665.448,
             "nodeNbA": 2,
-            "nodeArcs": [
-                87,
-                164
-            ]
+            "nodeArc1": 87,
+            "nodeArc2": 164,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 92,
             "nodx": 2973.802,
             "nody": -275.842,
             "nodeNbA": 2,
-            "nodeArcs": [
-                93,
-                173
-            ]
+            "nodeArc1": 93,
+            "nodeArc2": 173,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 93,
             "nodx": 2993.856,
             "nody": -238.389,
             "nodeNbA": 1,
-            "nodeArcs": [
-                92
-            ]
+            "nodeArc1": 92,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 94,
             "nodx": 2902.564,
             "nody": -316.586,
             "nodeNbA": 2,
-            "nodeArcs": [
-                49,
-                173
-            ]
+            "nodeArc1": 49,
+            "nodeArc2": 173,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 95,
             "nodx": 2563.297,
             "nody": -532.903,
             "nodeNbA": 1,
-            "nodeArcs": [
-                96
-            ]
+            "nodeArc1": 96,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 96,
             "nodx": 2564.031,
             "nody": -552.665,
             "nodeNbA": 2,
-            "nodeArcs": [
-                95,
-                83
-            ]
+            "nodeArc1": 95,
+            "nodeArc2": 83,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 97,
             "nodx": 2965.848,
             "nody": 171.759,
             "nodeNbA": 2,
-            "nodeArcs": [
-                98,
-                100
-            ]
+            "nodeArc1": 98,
+            "nodeArc2": 100,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 98,
             "nodx": 2886.012,
             "nody": 246.308,
             "nodeNbA": 3,
-            "nodeArcs": [
-                97,
-                105,
-                122
-            ]
+            "nodeArc1": 97,
+            "nodeArc2": 105,
+            "nodeArc3": 122,
+            "nodeArc4": -1
         },
         {
             "nodId": 99,
             "nodx": 3046.385,
             "nody": 246.308,
             "nodeNbA": 3,
-            "nodeArcs": [
-                100,
-                122,
-                123
-            ]
+            "nodeArc1": 100,
+            "nodeArc2": 122,
+            "nodeArc3": 123,
+            "nodeArc4": -1
         },
         {
             "nodId": 100,
             "nodx": 2966.594,
             "nody": 160.85,
             "nodeNbA": 3,
-            "nodeArcs": [
-                99,
-                102,
-                97
-            ]
+            "nodeArc1": 99,
+            "nodeArc2": 102,
+            "nodeArc3": 97,
+            "nodeArc4": -1
         },
         {
             "nodId": 101,
             "nodx": 2993.878,
             "nody": -238.701,
             "nodeNbA": 1,
-            "nodeArcs": [
-                102
-            ]
+            "nodeArc1": 102,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 102,
             "nodx": 2991.212,
             "nody": -199.388,
             "nodeNbA": 2,
-            "nodeArcs": [
-                101,
-                100
-            ]
+            "nodeArc1": 101,
+            "nodeArc2": 100,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 103,
             "nodx": 2684.388,
             "nody": -53.085,
             "nodeNbA": 3,
-            "nodeArcs": [
-                104,
-                109,
-                110
-            ]
+            "nodeArc1": 104,
+            "nodeArc2": 109,
+            "nodeArc3": 110,
+            "nodeArc4": -1
         },
         {
             "nodId": 104,
             "nodx": 2690.923,
             "nody": -21.361,
             "nodeNbA": 2,
-            "nodeArcs": [
-                103,
-                160
-            ]
+            "nodeArc1": 103,
+            "nodeArc2": 160,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 105,
             "nodx": 2866.288,
             "nody": 246.304,
             "nodeNbA": 3,
-            "nodeArcs": [
-                106,
-                121,
-                98
-            ]
+            "nodeArc1": 106,
+            "nodeArc2": 121,
+            "nodeArc3": 98,
+            "nodeArc4": -1
         },
         {
             "nodId": 106,
             "nodx": 2792.823,
             "nody": 198.029,
             "nodeNbA": 2,
-            "nodeArcs": [
-                105,
-                110
-            ]
+            "nodeArc1": 105,
+            "nodeArc2": 110,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 107,
             "nodx": 2730.946,
             "nody": 246.304,
             "nodeNbA": 2,
-            "nodeArcs": [
-                108,
-                116
-            ]
+            "nodeArc1": 108,
+            "nodeArc2": 116,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 108,
             "nodx": 2690.946,
             "nody": 206.304,
             "nodeNbA": 2,
-            "nodeArcs": [
-                107,
-                114
-            ]
+            "nodeArc1": 107,
+            "nodeArc2": 114,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 109,
             "nodx": 2672.658,
             "nody": -80.245,
             "nodeNbA": 2,
-            "nodeArcs": [
-                10,
-                103
-            ]
+            "nodeArc1": 10,
+            "nodeArc2": 103,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 110,
             "nodx": 2782.349,
             "nody": 173.773,
             "nodeNbA": 3,
-            "nodeArcs": [
-                103,
-                131,
-                106
-            ]
+            "nodeArc1": 103,
+            "nodeArc2": 131,
+            "nodeArc3": 106,
+            "nodeArc4": -1
         },
         {
             "nodId": 111,
             "nodx": 2690.923,
             "nody": 398.283,
             "nodeNbA": 3,
-            "nodeArcs": [
-                112,
-                145,
-                115
-            ]
+            "nodeArc1": 112,
+            "nodeArc2": 145,
+            "nodeArc3": 115,
+            "nodeArc4": -1
         },
         {
             "nodId": 112,
             "nodx": 2610.923,
             "nody": 478.283,
             "nodeNbA": 4,
-            "nodeArcs": [
-                111,
-                113,
-                113,
-                145
-            ]
+            "nodeArc1": 111,
+            "nodeArc2": 113,
+            "nodeArc3": 113,
+            "nodeArc4": 145
         },
         {
             "nodId": 113,
             "nodx": 2583.755,
             "nody": 478.281,
             "nodeNbA": 3,
-            "nodeArcs": [
-                112,
-                142,
-                112
-            ]
+            "nodeArc1": 112,
+            "nodeArc2": 142,
+            "nodeArc3": 112,
+            "nodeArc4": -1
         },
         {
             "nodId": 114,
             "nodx": 2690.945,
             "nody": 181.712,
             "nodeNbA": 3,
-            "nodeArcs": [
-                108,
-                130,
-                129
-            ]
+            "nodeArc1": 108,
+            "nodeArc2": 130,
+            "nodeArc3": 129,
+            "nodeArc4": -1
         },
         {
             "nodId": 115,
             "nodx": 2690.91,
             "nody": 326.308,
             "nodeNbA": 3,
-            "nodeArcs": [
-                116,
-                175,
-                111
-            ]
+            "nodeArc1": 116,
+            "nodeArc2": 175,
+            "nodeArc3": 111,
+            "nodeArc4": -1
         },
         {
             "nodId": 116,
             "nodx": 2770.932,
             "nody": 246.304,
             "nodeNbA": 3,
-            "nodeArcs": [
-                115,
-                107,
-                121
-            ]
+            "nodeArc1": 115,
+            "nodeArc2": 107,
+            "nodeArc3": 121,
+            "nodeArc4": -1
         },
         {
             "nodId": 117,
             "nodx": 1915.583,
             "nody": -54.454,
             "nodeNbA": 2,
-            "nodeArcs": [
-                118,
-                1
-            ]
+            "nodeArc1": 118,
+            "nodeArc2": 1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 118,
             "nodx": 1895.561,
             "nody": -34.45,
             "nodeNbA": 2,
-            "nodeArcs": [
-                117,
-                119
-            ]
+            "nodeArc1": 117,
+            "nodeArc2": 119,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 119,
             "nodx": 1832.221,
             "nody": -34.452,
             "nodeNbA": 2,
-            "nodeArcs": [
-                118,
-                120
-            ]
+            "nodeArc1": 118,
+            "nodeArc2": 120,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 120,
             "nodx": 1679.934,
             "nody": -34.45,
             "nodeNbA": 2,
-            "nodeArcs": [
-                119,
-                125
-            ]
+            "nodeArc1": 119,
+            "nodeArc2": 125,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 121,
             "nodx": 2818.514,
             "nody": 246.306,
             "nodeNbA": 2,
-            "nodeArcs": [
-                116,
-                105
-            ]
+            "nodeArc1": 116,
+            "nodeArc2": 105,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 122,
             "nodx": 2996.36,
             "nody": 246.304,
             "nodeNbA": 2,
-            "nodeArcs": [
-                98,
-                99
-            ]
+            "nodeArc1": 98,
+            "nodeArc2": 99,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 123,
             "nodx": 3256.618,
             "nody": 246.308,
             "nodeNbA": 2,
-            "nodeArcs": [
-                99,
-                133
-            ]
+            "nodeArc1": 99,
+            "nodeArc2": 133,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 124,
             "nodx": 801.816,
             "nody": 181.557,
             "nodeNbA": 3,
-            "nodeArcs": [
-                30,
-                163,
-                179
-            ]
+            "nodeArc1": 30,
+            "nodeArc2": 163,
+            "nodeArc3": 179,
+            "nodeArc4": -1
         },
         {
             "nodId": 125,
             "nodx": 1579.169,
             "nody": -34.449,
             "nodeNbA": 1,
-            "nodeArcs": [
-                120
-            ]
+            "nodeArc1": 120,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 126,
             "nodx": 2502.459,
             "nody": -74.46,
             "nodeNbA": 2,
-            "nodeArcs": [
-                127,
-                4
-            ]
+            "nodeArc1": 127,
+            "nodeArc2": 4,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 127,
             "nodx": 2462.437,
             "nody": -34.456,
             "nodeNbA": 2,
-            "nodeArcs": [
-                126,
-                128
-            ]
+            "nodeArc1": 126,
+            "nodeArc2": 128,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 128,
             "nodx": 2362.71,
             "nody": -34.457,
             "nodeNbA": 1,
-            "nodeArcs": [
-                127
-            ]
+            "nodeArc1": 127,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 129,
             "nodx": 2690.941,
             "nody": 141.712,
             "nodeNbA": 2,
-            "nodeArcs": [
-                130,
-                114
-            ]
+            "nodeArc1": 130,
+            "nodeArc2": 114,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 130,
             "nodx": 2670.919,
             "nody": 161.716,
             "nodeNbA": 4,
-            "nodeArcs": [
-                129,
-                114,
-                132,
-                131
-            ]
+            "nodeArc1": 129,
+            "nodeArc2": 114,
+            "nodeArc3": 132,
+            "nodeArc4": 131
         },
         {
             "nodId": 131,
             "nodx": 2763.988,
             "nody": 161.702,
             "nodeNbA": 2,
-            "nodeArcs": [
-                110,
-                130
-            ]
+            "nodeArc1": 110,
+            "nodeArc2": 130,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 132,
             "nodx": 2617.035,
             "nody": 161.715,
             "nodeNbA": 1,
-            "nodeArcs": [
-                130
-            ]
+            "nodeArc1": 130,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 133,
             "nodx": 3450.733,
             "nody": 246.308,
             "nodeNbA": 2,
-            "nodeArcs": [
-                123,
-                134
-            ]
+            "nodeArc1": 123,
+            "nodeArc2": 134,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 134,
             "nodx": 3613.883,
             "nody": 246.31,
             "nodeNbA": 1,
-            "nodeArcs": [
-                133
-            ]
+            "nodeArc1": 133,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 135,
             "nodx": 2410.894,
             "nody": 594.404,
             "nodeNbA": 2,
-            "nodeArcs": [
-                136,
-                139
-            ]
+            "nodeArc1": 136,
+            "nodeArc2": 139,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 136,
             "nodx": 2390.894,
             "nody": 574.404,
             "nodeNbA": 2,
-            "nodeArcs": [
-                135,
-                141
-            ]
+            "nodeArc1": 135,
+            "nodeArc2": 141,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 137,
             "nodx": 2390.916,
             "nody": 498.268,
             "nodeNbA": 2,
-            "nodeArcs": [
-                138,
-                140
-            ]
+            "nodeArc1": 138,
+            "nodeArc2": 140,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 138,
             "nodx": 2410.916,
             "nody": 478.268,
             "nodeNbA": 2,
-            "nodeArcs": [
-                137,
-                142
-            ]
+            "nodeArc1": 137,
+            "nodeArc2": 142,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 139,
             "nodx": 2468.759,
             "nody": 594.371,
             "nodeNbA": 3,
-            "nodeArcs": [
-                140,
-                143,
-                135
-            ]
+            "nodeArc1": 140,
+            "nodeArc2": 143,
+            "nodeArc3": 135,
+            "nodeArc4": -1
         },
         {
             "nodId": 140,
             "nodx": 2390.894,
             "nody": 514.404,
             "nodeNbA": 3,
-            "nodeArcs": [
-                139,
-                141,
-                137
-            ]
+            "nodeArc1": 139,
+            "nodeArc2": 141,
+            "nodeArc3": 137,
+            "nodeArc4": -1
         },
         {
             "nodId": 141,
             "nodx": 2390.894,
             "nody": 558.276,
             "nodeNbA": 3,
-            "nodeArcs": [
-                142,
-                136,
-                140
-            ]
+            "nodeArc1": 142,
+            "nodeArc2": 136,
+            "nodeArc3": 140,
+            "nodeArc4": -1
         },
         {
             "nodId": 142,
             "nodx": 2470.894,
             "nody": 478.276,
             "nodeNbA": 3,
-            "nodeArcs": [
-                141,
-                138,
-                113
-            ]
+            "nodeArc1": 141,
+            "nodeArc2": 138,
+            "nodeArc3": 113,
+            "nodeArc4": -1
         },
         {
             "nodId": 143,
             "nodx": 2754.472,
             "nody": 594.404,
             "nodeNbA": 2,
-            "nodeArcs": [
-                139,
-                144
-            ]
+            "nodeArc1": 139,
+            "nodeArc2": 144,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 144,
             "nodx": 2794.495,
             "nody": 554.4,
             "nodeNbA": 2,
-            "nodeArcs": [
-                143,
-                147
-            ]
+            "nodeArc1": 143,
+            "nodeArc2": 147,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 145,
             "nodx": 2754.495,
             "nody": 478.293,
             "nodeNbA": 3,
-            "nodeArcs": [
-                146,
-                112,
-                111
-            ]
+            "nodeArc1": 146,
+            "nodeArc2": 112,
+            "nodeArc3": 111,
+            "nodeArc4": -1
         },
         {
             "nodId": 146,
             "nodx": 2794.472,
             "nody": 518.297,
             "nodeNbA": 1,
-            "nodeArcs": [
-                145
-            ]
+            "nodeArc1": 145,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 147,
             "nodx": 2794.472,
             "nody": 518.318,
             "nodeNbA": 1,
-            "nodeArcs": [
-                144
-            ]
+            "nodeArc1": 144,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 148,
             "nodx": 2942.08,
             "nody": -574.787,
             "nodeNbA": 2,
-            "nodeArcs": [
-                149,
-                152
-            ]
+            "nodeArc1": 149,
+            "nodeArc2": 152,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 149,
             "nodx": 2954.649,
             "nody": -619.232,
             "nodeNbA": 3,
-            "nodeArcs": [
-                148,
-                70,
-                80
-            ]
+            "nodeArc1": 148,
+            "nodeArc2": 70,
+            "nodeArc3": 80,
+            "nodeArc4": -1
         },
         {
             "nodId": 150,
             "nodx": 2948.225,
             "nody": -290.47,
             "nodeNbA": 1,
-            "nodeArcs": [
-                151
-            ]
+            "nodeArc1": 151,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 151,
             "nodx": 2931.444,
             "nody": -341.239,
             "nodeNbA": 2,
-            "nodeArcs": [
-                150,
-                153
-            ]
+            "nodeArc1": 150,
+            "nodeArc2": 153,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 152,
             "nodx": 2972.481,
             "nody": -488.808,
             "nodeNbA": 2,
-            "nodeArcs": [
-                153,
-                148
-            ]
+            "nodeArc1": 153,
+            "nodeArc2": 148,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 153,
             "nodx": 2970.337,
             "nody": -430.045,
             "nodeNbA": 2,
-            "nodeArcs": [
-                152,
-                151
-            ]
+            "nodeArc1": 152,
+            "nodeArc2": 151,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 154,
             "nodx": 2690.946,
             "nody": 201.804,
             "nodeNbA": 1,
-            "nodeArcs": [
-                155
-            ]
+            "nodeArc1": 155,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 155,
             "nodx": 2650.946,
             "nody": 241.804,
             "nodeNbA": 3,
-            "nodeArcs": [
-                154,
-                156,
-                157
-            ]
+            "nodeArc1": 154,
+            "nodeArc2": 156,
+            "nodeArc3": 157,
+            "nodeArc4": -1
         },
         {
             "nodId": 156,
             "nodx": 2617.046,
             "nody": 241.806,
             "nodeNbA": 1,
-            "nodeArcs": [
-                155
-            ]
+            "nodeArc1": 155,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 157,
             "nodx": 2690.937,
             "nody": 281.804,
             "nodeNbA": 2,
-            "nodeArcs": [
-                155,
-                174
-            ]
+            "nodeArc1": 155,
+            "nodeArc2": 174,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 158,
             "nodx": 2650.908,
             "nody": 81.674,
             "nodeNbA": 3,
-            "nodeArcs": [
-                159,
-                160,
-                161
-            ]
+            "nodeArc1": 159,
+            "nodeArc2": 160,
+            "nodeArc3": 161,
+            "nodeArc4": -1
         },
         {
             "nodId": 159,
             "nodx": 2690.921,
             "nody": 121.058,
             "nodeNbA": 2,
-            "nodeArcs": [
-                158,
-                176
-            ]
+            "nodeArc1": 158,
+            "nodeArc2": 176,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 160,
             "nodx": 2690.93,
             "nody": 41.67,
             "nodeNbA": 2,
-            "nodeArcs": [
-                158,
-                104
-            ]
+            "nodeArc1": 158,
+            "nodeArc2": 104,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 161,
             "nodx": 2617.035,
             "nody": 81.67,
             "nodeNbA": 1,
-            "nodeArcs": [
-                158
-            ]
+            "nodeArc1": 158,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 162,
             "nodx": 2802.201,
             "nody": -397.158,
             "nodeNbA": 1,
-            "nodeArcs": [
-                52
-            ]
+            "nodeArc1": 52,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 163,
             "nodx": 756.335,
             "nody": 161.299,
             "nodeNbA": 2,
-            "nodeArcs": [
-                31,
-                124
-            ]
+            "nodeArc1": 31,
+            "nodeArc2": 124,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 164,
             "nodx": 2600.549,
             "nody": -654.192,
             "nodeNbA": 1,
-            "nodeArcs": [
-                91
-            ]
+            "nodeArc1": 91,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 165,
             "nodx": 2669.766,
             "nody": -449.752,
             "nodeNbA": 1,
-            "nodeArcs": [
-                78
-            ]
+            "nodeArc1": 78,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 166,
             "nodx": 2563.275,
             "nody": -532.899,
             "nodeNbA": 1,
-            "nodeArcs": [
-                59
-            ]
+            "nodeArc1": 59,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 167,
             "nodx": 2563.287,
             "nody": -532.899,
             "nodeNbA": 1,
-            "nodeArcs": [
-                55
-            ]
+            "nodeArc1": 55,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 168,
             "nodx": 2575.18,
             "nody": -783.665,
             "nodeNbA": 1,
-            "nodeArcs": [
-                169
-            ]
+            "nodeArc1": 169,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 169,
             "nodx": 2594.334,
             "nody": -778.802,
             "nodeNbA": 2,
-            "nodeArcs": [
-                168,
-                66
-            ]
+            "nodeArc1": 168,
+            "nodeArc2": 66,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 170,
             "nodx": 2772.293,
             "nody": -391.083,
             "nodeNbA": 1,
-            "nodeArcs": [
-                78
-            ]
+            "nodeArc1": 78,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 171,
             "nodx": 2802.228,
             "nody": -457.33,
             "nodeNbA": 1,
-            "nodeArcs": [
-                75
-            ]
+            "nodeArc1": 75,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 172,
             "nodx": 2802.22,
             "nody": -457.33,
             "nodeNbA": 1,
-            "nodeArcs": [
-                52
-            ]
+            "nodeArc1": 52,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 173,
             "nodx": 2948.225,
             "nody": -290.504,
             "nodeNbA": 2,
-            "nodeArcs": [
-                94,
-                92
-            ]
+            "nodeArc1": 94,
+            "nodeArc2": 92,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 174,
             "nodx": 2690.946,
             "nody": 206.466,
             "nodeNbA": 1,
-            "nodeArcs": [
-                157
-            ]
+            "nodeArc1": 157,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 175,
             "nodx": 2690.948,
             "nody": 281.804,
             "nodeNbA": 1,
-            "nodeArcs": [
-                115
-            ]
+            "nodeArc1": 115,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 176,
             "nodx": 2690.921,
             "nody": 141.712,
             "nodeNbA": 1,
-            "nodeArcs": [
-                159
-            ]
+            "nodeArc1": 159,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 177,
             "nodx": 2690.902,
             "nody": 41.67,
             "nodeNbA": 1,
-            "nodeArcs": [
-                178
-            ]
+            "nodeArc1": 178,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 178,
             "nodx": 2690.902,
             "nody": 121.111,
             "nodeNbA": 1,
-            "nodeArcs": [
-                177
-            ]
+            "nodeArc1": 177,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         },
         {
             "nodId": 179,
             "nodx": 812.602,
             "nody": 202.294,
             "nodeNbA": 1,
-            "nodeArcs": [
-                124
-            ]
+            "nodeArc1": 124,
+            "nodeArc2": -1,
+            "nodeArc3": -1,
+            "nodeArc4": -1
         }
     ],
     "Constraints": [

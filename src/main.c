@@ -22,7 +22,7 @@ char *jsonFileName="base.json";
 
 char *JSON_STRING = NULL;
 long length;
-long expectNvalues=6000;
+long expectNvalues=8000;
 
 int flag=0;
 
@@ -67,12 +67,14 @@ int main(int argc, char const *argv[])
 
 	struct Beacons B[Boccur];
     struct Node nd[ndoccur];
+    struct Node *nodes[ndoccur];
 	struct Waypoints Wp[Wpoccur];
 	struct Legs lg[lgoccur];
 	struct Constraints ct[ctoccur];
 	struct Constants c;
 
 	for (i = 1; i < r; i++) {
+        struct Node nodes[ndoccur];
 		if (jsoneq(JSON_STRING, &t[i], stLegs) == 0) {
 			for(int in=0;in<lgoccur;in++){
 				lg[in]=legsExt(JSON_STRING,IP,i,in);
@@ -86,7 +88,7 @@ int main(int argc, char const *argv[])
 		else if (jsoneq(JSON_STRING, &t[i], stWaypoints) == 0) {
 			for(int in=0;in<Wpoccur;in++){
 				Wp[in]=waypointsExt(JSON_STRING,IP,i,in);
-                printf("%f , %f\n",Wp[in].x,Wp[in].y);
+                //printf("%f , %f\n",Wp[in].x,Wp[in].y);
 			}
 		}
 		else if (jsoneq(JSON_STRING, &t[i], stConstraints) == 0) {
@@ -100,10 +102,21 @@ int main(int argc, char const *argv[])
             nodejson : arc1,arc2,arc3,arc4 au lieu de Arcs[]
             use nb_arc to extract
 */
+        
         else if (jsoneq(JSON_STRING, &t[i], stnodes) == 0) {
 			for(int in=0;in<=ndoccur;in++){
 				nd[in]=nodesExt(JSON_STRING,IP,i,in);
-                //printf("%f , %f",nd[in].x,nd[in].y);
+                
+                //printf("%f , %f, %d\n",nd[in].x,nd[in].y,nd[in].id);
+                if(in==ndoccur){
+                    for(int k=0;k<ndoccur;k++){
+                        for(int j=0;j<nd[k].nb_a;j++){
+                            Arc temparc;
+                            temparc.dest = &nd[nd[k].ids[j]];
+                            nd[k].arcs[j]=temparc;
+                        }
+                    }
+                }
 			}
 		}
 

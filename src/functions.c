@@ -305,15 +305,19 @@ struct Node nodesExt(char *_JSON_STRING,initParser _IP,int _i,int objRank){
 		jsmntok_t *_t = _IP.t;
 		//char * jsonobjectname=stBeaconid";
 		
-		int ndrank = objectRank(stConstraints,_JSON_STRING, _IP)-1;
+		int ndrank = objectRank(stnodes,_JSON_STRING, _IP)-1;
 		int tab=nextObjectTab(stNodeId,_JSON_STRING, _IP);
 
-		int idrank=objectRank(stNodeId,_JSON_STRING, _IP)-ndrank+objRank*tab;
-		int nbarank=objectRank(stCvalue,_JSON_STRING, _IP)-ndrank+objRank*tab;
+		int idrank= objectRank(stNodeId,_JSON_STRING, _IP)-ndrank+objRank*tab;
+		int nbarank=objectRank(stnodeNbA,_JSON_STRING, _IP)-ndrank+objRank*tab;
 		int typerank=0;
 		int xrank=objectRank(stnodx,_JSON_STRING, _IP)-ndrank+objRank*tab;
 		int yrank=objectRank(stnody,_JSON_STRING, _IP)-ndrank+objRank*tab;
-		int arcrank=objectRank(stnodeArcs,_JSON_STRING, _IP)-ndrank+objRank*tab;
+		int arc1rank=objectRank(stnodeArc1,_JSON_STRING, _IP)-ndrank+objRank*tab;
+		int arc2rank=objectRank(stnodeArc2,_JSON_STRING, _IP)-ndrank+objRank*tab;
+		int arc3rank=objectRank(stnodeArc3,_JSON_STRING, _IP)-ndrank+objRank*tab;
+		int arc4rank=objectRank(stnodeArc4,_JSON_STRING, _IP)-ndrank+objRank*tab;
+		
 		
 		//---
 		tempchar = malloc(sizeof(int));
@@ -338,11 +342,38 @@ struct Node nodesExt(char *_JSON_STRING,initParser _IP,int _i,int objRank){
 		nd.y=strtof(tempchar,NULL);
 		free(tempchar);
 
+		tempchar = malloc(sizeof(int));
+		strncpy(tempchar,  _JSON_STRING + _t[_i+ nbarank].start, sizeof(int));
+		nd.nb_a=atoi(tempchar);
+		free(tempchar);
+
+
+		tempchar = malloc(sizeof(int));
+		strncpy(tempchar,  _JSON_STRING + _t[_i+ arc1rank].start, sizeof(int));
+		nd.ids[0]=atoi(tempchar);
+		free(tempchar);
+
+		tempchar = malloc(sizeof(int));
+		strncpy(tempchar,  _JSON_STRING + _t[_i+ arc2rank].start, sizeof(int));
+		nd.ids[1]=atoi(tempchar);
+		free(tempchar);
+
+		tempchar = malloc(sizeof(int));
+		strncpy(tempchar,  _JSON_STRING + _t[_i+ arc3rank].start, sizeof(int));
+		nd.ids[2]=atoi(tempchar);
+		free(tempchar);
+
+
+		tempchar = malloc(sizeof(int));
+		strncpy(tempchar,  _JSON_STRING + _t[_i+ arc4rank].start, sizeof(int));
+		nd.ids[3]=atoi(tempchar);
+		free(tempchar);
 		
-		namechar = malloc(5*sizeof(char));
-		strncpy(namechar,  _JSON_STRING + _t[_i+ arcrank].start, 15*sizeof(char));
-		nd.starcs=namechar;
-		return nd;
+		//printf("%d , %d , %d , %d\n",nd.ids[0],nd.ids[1],nd.ids[2],nd.ids[3]);
+		
+	return nd;
+
+
   }
   //------------------------------------------------------------------------------------------
   //------------------------------------------------------------------------------------------
@@ -578,7 +609,8 @@ int objectRank(char * objectName,char * JSON_STRING, initParser IP){
 	int rank;
 	jsmntok_t * t = IP.t;
 	int r = IP.r;
-	for (int i = 1; i < r; i++) {
+	int i=0;
+	for (i = 1; i < r; i++) {
 		if (jsoneq(JSON_STRING, &t[i], objectName) == 0) {
 			return i;
 		}
